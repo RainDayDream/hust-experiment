@@ -201,7 +201,7 @@ void main(){
 			if (FD_ISSET(sessionSocket, &rfds)) {
 				//receiving data from client
 				memset(recvBuf, '\0', 4096);
-				rtn = recv(sessionSocket, recvBuf, 256, 0);
+				rtn = recv(sessionSocket, recvBuf, 2560, 0);
 				if (rtn > 0) {
 					//2-2 Êä³öhttpÇëÇó
 					#ifdef output
