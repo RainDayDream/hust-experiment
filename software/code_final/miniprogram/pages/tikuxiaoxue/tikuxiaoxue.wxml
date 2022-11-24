@@ -1,0 +1,44 @@
+<view class="container1">
+  <view class="gradecontain" bindtap="goxiaoxueyinianji">
+    <view>
+      <view><text class="grade">一 年 级</text></view>
+      <text class="eng"> Grade1</text>
+    </view>
+  </view>
+  <view class="gradecontain"  bindtap="goxiaoxueyinianji2">
+      <view>
+        <text class="grade">二 年 级</text>
+        <text class="eng"> Grade2</text>
+      </view>
+  </view>
+</view>
+
+<view class="container1">
+  <view class="gradecontain2" bindtap="goxiaoxueyinianji3">
+    <view>
+      <view><text class="grade">三 年 级</text></view>
+      <text class="eng"> Grade3</text>
+    </view>
+  </view>
+  <view class="gradecontain2"  bindtap="goxiaoxueyinianji4">
+      <view>
+        <text class="grade">四 年 级</text>
+        <text class="eng"> Grade4</text>
+      </view>
+  </view>
+</view>
+
+<view class="container1">
+  <view class="gradecontain2" bindtap="goxiaoxueyinianji5">
+    <view>
+      <view><text class="grade">五 年 级</text></view>
+      <text class="eng"> Grade5</text>
+    </view>
+  </view>
+  <view class="gradecontain2"  bindtap="goxiaoxueyinianji6">
+      <view>
+        <text class="grade">六 年 级</text>
+        <text class="eng"> Grade6</text>
+      </view>
+  </view>
+</view>

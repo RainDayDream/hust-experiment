@@ -1,0 +1,86 @@
+.red {
+  color: red;
+}
+
+.green {
+  color: rgb(3, 150, 3);
+  font-weight: 600;
+}
+
+.btn_root {
+  display: flex;
+  justify-content: space-around;
+  margin: 40rpx;
+  margin-top: 60rpx;
+}
+
+.num {
+  position: relative;
+  margin-left: 80rpx;
+  margin-top: 36rpx;
+  margin-bottom: 40rpx;
+}
+
+.question {
+  margin-left: 80rpx;
+  margin-right: 60rpx;
+  margin-bottom: 70rpx;
+  margin-top: 70rpx;
+  font-weight: 800;
+
+}
+
+.option {
+  margin-left: 80rpx;
+  margin-bottom: 70rpx;
+
+}
+
+.option2 {
+  margin-left: 10rpx;
+}
+
+.correctAns {
+  margin-left: 80rpx;
+}
+
+.image2 {
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 20rpx;
+}
+
+.square {
+  left: 30rpx;
+  top: 376rpx;
+  width: 670rpx;
+  height: 800rpx;
+  line-height: 40rpx;
+  border-radius: 40rpx;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 28rpx;
+  box-shadow: 1px 1px 5px 1px rgba(214, 214, 214, 100);
+  font-family: Arial;
+  border: 2rpx solid rgba(255, 0, 0, 0);
+  margin-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+}
+.delete {
+  color: red;
+  margin-right: 20rpx;
+  margin-top: 36rpx;
+  margin-bottom: 40rpx;
+  position: absolute;
+  /* 相对relative也可以 */
+  right: 0;
+  /* 靠右调节 */
+  margin-right: 70rpx
+}
+.pro {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+}

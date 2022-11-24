@@ -1,0 +1,109 @@
+.login
+{
+    width: 750rpx;
+    height: 400rpx;
+    line-height: 52rpx;
+    background-color: rgba(240, 198, 14);
+    text-align: center;
+}
+.circle
+{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius:50%;
+    background-color: rgb(221, 220, 220);
+
+    margin-top: 40rpx;
+}
+.login2{
+    margin-top:10rpx;
+}
+.icon
+{
+    width:200rpx;
+    height:200rpx;
+    border-radius:50%;
+    margin-top: 40rpx;
+    margin-bottom: 20rpx;
+}
+
+
+.root
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.mistakes{
+    margin-top: 40rpx;
+    width: 750rpx;
+    height: 80rpx;
+    background-color: rgba(255, 255, 255, 1);
+    align-items: left;
+}
+.mistakes2{
+    margin-top:16rpx;
+    margin-left:16rpx;
+    position: relative;
+}
+.collections
+{
+    margin-top: 4rpx;
+    width: 750rpx;
+    height: 80rpx;
+    background-color: rgb(255, 255, 255, 1);
+    align-items: left;
+    
+}
+.collections2
+{
+    margin-top:16rpx;
+    margin-left:16rpx;
+}
+.right_arrow
+{
+    margin-top:16rpx;
+    border:solid black;
+    border-width:0 6rpx 6rpx 0;
+    padding:6rpx;
+    position:absolute;
+    right:30rpx;
+    transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+}
+.button
+{
+    width:100%;
+    background:white;
+    border:none;
+    text-align:left;
+    margin:0rpx;
+    line-height: 1.3;
+    font-size:32rpx;
+    top: 16rpx;
+    left:16rpx;
+}
+.button::after{
+    border:none;
+    border-radius:0;
+}
+.right_arrow2
+{
+    margin-top:-30rpx;
+    margin-right:2rpx;
+    border:solid black;
+    border-width:0 6rpx 6rpx 0;
+    padding:6rpx;
+    position:absolute;
+    right:30rpx;
+    transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+}
+.grade
+{
+    position: absolute; /* 相对relative也可以 */
+    right: 0; /* 靠右调节 */
+    margin-right: 35rpx;
+    color:rgb(161, 160, 160);
+}

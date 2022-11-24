@@ -1,0 +1,82 @@
+/* pages/record/record.wxss */
+.textmydata{
+  font-family: "黑体";
+  font-size: 130%;
+  margin-top: 36rpx;
+  margin-left: 40rpx;
+}
+
+.contain1{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  align-items: flex-end;
+}
+
+.contain11{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  padding-bottom: 30rpx;
+  border-bottom: solid rgba(0, 0, 0, 0.068);
+  border-width:thin;
+}
+
+.contain12{
+  margin-top: 30rpx;
+  margin-bottom: 40rpx;
+}
+
+.contain2{
+  padding: 30rpx;
+  background-color: white;
+  margin: 36rpx;
+  border-radius: 5%;
+  box-shadow: 2rpx 2rpx 12rpx 2rpx #7979790e;
+}
+
+.contain3{
+  padding: 30rpx;
+  background-color: white;
+  margin-left: 36rpx;
+  margin-bottom: 36rpx;
+  margin-right: 36rpx;
+  border-radius: 5%;
+  box-shadow: 2rpx 2rpx 12rpx 2rpx #7979790e;
+}
+
+.qtext{
+  font-size: 105%;
+  color: rgba(0, 0, 0, 0.801);
+}
+
+.qnums{
+  font-size: 200%;
+}
+
+.textmin{
+  text-align: right;
+  margin-right: 30rpx;
+  font-size: 40%;
+  font-family: '宋体';
+  color: rgba(0, 0, 0, 0.336);
+}
+
+.todaytext{
+  text-shadow:4rpx 4rpx  rgba(140, 195, 240, 0.671);
+  font-family: '黑体';
+  font-size: 110%;
+  font-weight:bold;
+}
+
+.eng{
+  color: rgba(187, 217, 243, 0.493);
+  font-size: 100%;
+  /* font-family: Noto Serif JP; */
+  font-style: italic;
+}
+
+.today{
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+}

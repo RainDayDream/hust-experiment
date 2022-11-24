@@ -1,0 +1,38 @@
+/* pages/currentErr/currentErr.wxss */
+.question
+{
+    display: flex;
+    background-color: white;
+    width: 750rpx;
+    height: 100rpx;
+    margin-top: 6rpx;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+}
+.title
+{
+    margin-left:20rpx;
+    margin-right:86rpx;
+    height:38rpx;
+    color:rgba(0,0,0,0.8);
+    display:-webkit-box;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    word-break:break-all;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:1;
+}
+.correct
+{
+    position:absolute;
+    right:40rpx;
+    margin-top: -40rpx;
+}
+.wrong{
+    position:absolute;
+    right:40rpx;
+    margin-top: -40rpx;
+}

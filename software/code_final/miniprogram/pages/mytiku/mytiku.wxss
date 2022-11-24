@@ -1,0 +1,118 @@
+.content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.bt_button2{
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+  justify-content: space-around;
+
+}
+.question
+{
+  margin-left:80rpx;
+  margin-right:60rpx;
+  margin-bottom: 70rpx;
+  margin-top:70rpx;
+  font-weight: 800;
+
+}
+.option
+{
+  margin-left:80rpx;
+  margin-bottom: 70rpx;
+
+}
+.option2
+{
+  margin-left:10rpx;
+}
+
+.add
+{
+  position: absolute; /* 相对relative也可以 */
+  right: 0; /* 靠右调节 */
+  margin-right: 60rpx;
+
+}
+.num
+{
+  position: relative;
+  margin-left: 80rpx;
+  margin-top:36rpx ;
+  margin-bottom:30rpx;
+}
+.btn_root{
+  display: flex;
+  justify-content: space-around;
+  margin: 40rpx;
+  margin-top: 60rpx;
+}
+.image
+{
+  width:60rpx;
+  height:60rpx;
+  margin-left:40rpx;
+  margin-top:30rpx;
+
+}
+.image2
+{
+  width:60rpx;
+  height:60rpx;
+  margin-left: 20rpx;
+}
+
+.square {
+  left: 30rpx;
+  top: 376rpx;
+  width: 670rpx;
+  height: 800rpx;
+  line-height: 40rpx;
+  border-radius: 40rpx;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 28rpx;
+  box-shadow: 1px 1px 5px 1px rgba(214, 214, 214, 100);
+  font-family: Arial;
+  border: 2rpx solid rgba(255, 0, 0, 0);
+  margin-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+}
+.submit
+{
+  text-align: center;
+  color:rgb(3, 150, 3);
+  font-size: 40rpx;
+  font-weight: 800;
+
+}
+.submitover{
+  text-align: center;
+  color:rgb(201, 212, 188);
+  font-size: 40rpx;
+  font-weight: 800;
+}
+
+.errNULL {
+  margin-top: 400rpx;
+  height: 700rpx;
+}
+.littletips {
+  font-size: x-small;
+  color: rgba(73, 75, 74, 0.788);
+  width: 750rpx;
+  text-align: center;
+  /* 左右居中 */
+  display: flex;
+  height: 100rpx;
+
+  justify-content: center;
+  align-items: center;
+}

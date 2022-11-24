@@ -1,0 +1,27 @@
+<view wx:if="{{total>0}}">
+<view class="pro">
+  <view class="num">第{{current+1}}题/共{{total}}题</view>
+  <view class="delete" bindtap="delete">删除</view>
+</view>
+<view class="square">
+<view class="question">题目：{{subject.title}}</view>
+  <view wx:for="{{subject.options}}" class="option">
+  <text class="{{(subject.answer==item.code)?'green':''}}" >{{item.code}}:{{item.content}}</text>
+   </view> 
+  <view class="correctAns">正确答案：
+  <text wx:for="{{subject.answer}}" >{{item}}</text>
+  </view>
+
+</view>
+<view class="btn_root">
+<view>
+  <image src="/images/left.png" bindtap="pre" class="image2"></image>
+<view bindtap="pre" class="left2">上一题</view>
+</view>
+<view>
+  <image src="/images/right.png" bindtap="next" class="image2"></image>
+  <view bindtap="next" >下一题</view>
+</view>
+
+</view>
+</view>

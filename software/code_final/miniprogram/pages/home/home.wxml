@@ -1,0 +1,29 @@
+<swiper indicator-dots autoplay interval="2000" circular class="swiper">
+  <swiper-item wx:for="{{imageList}}" class="what">
+  <image src="{{item}}" class="pic"></image>
+ </swiper-item>
+</swiper>
+
+<view class="content1">
+  <view class="tiku" bindtap="gotiku">
+    <view>
+      <text class="tikutext">题 库</text>
+      <text class="right_arrow"></text>
+      <text class="eng1"> Collections</text>
+    </view>
+  </view>
+  <view class="mytiku"  bindtap="gomytiku">
+      <view>
+        <text class="mytikutext">正 在 刷 题</text>
+        <text class="right_arrow"></text>
+        <text class="eng1"> Current</text>
+      </view>
+  </view>
+  <view class="likes"  bindtap="goToCollection">
+      <view>
+        <text class="mylikestext">我 的 收 藏</text>
+        <text class="right_arrow"></text>
+        <text class="eng1"> Likes</text>
+      </view>
+  </view>
+</view>

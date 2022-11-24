@@ -1,0 +1,47 @@
+<view class="login">
+    <view wx:if="{{!userInfo}}" class="root">
+        <view class="circle"></view>
+        <button class="login2" bindtap="login">点我登录</button>
+    </view>
+    <view wx:else class="root">
+        <image class="icon" src="{{userInfo.avatarUrl}}"></image>
+        <text class="nickname">{{userInfo.nickName}}</text>
+        <button bindtap="logOut">退出登录</button>
+    </view>
+</view>
+<view class="mistakes">
+    <picker bindchange="PickerChange" value="{{index}}" range="{{picker}}" class="mistakes2">年级
+        <!-- <view class="text3">{{picker?picker[index]:''}}</view> -->
+
+        <text wx:if="{{!grade}}" class="grade">请选择你的年级</text>
+        <text wx:else class="grade">{{grade}}</text>
+    </picker>
+</view>
+
+<view class="collections">
+    <view bindtap="errorlist" class="collections2">我的错题集
+        <text class="right_arrow"></text>
+    </view>
+</view>
+<view class="collections">
+    <view bindtap="collections" class="collections2">我的收藏
+        <text class="right_arrow"></text>
+    </view>
+</view>
+<view class="collections">
+    <view bindtap="report" class="collections2">学习报告
+        <text class="right_arrow"></text>
+    </view>
+</view>
+<view class="collections">
+    <view class="collections2" open-type="feedback">反馈建议
+    </view>
+    <text class="right_arrow2"></text>
+</view>
+<view class="collections">
+    <view class="collections2" open-type="contact">在线客服
+
+    </view>
+    <text class="right_arrow2"></text>
+</view>
+

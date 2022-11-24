@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/danxuan/danxuan",
+    "pages/errorclt/errorclt",
+    "pages/errorlist/errorlist",
+    "pages/me/me",
+    "pages/tiku/tiku",
+    "pages/tikuxiaoxue/tikuxiaoxue",
+    "pages/tikuxiaoxue1/tikuxiaoxue1",
+    "pages/xiaoxue1math/xiaoxue1math",
+    "pages/mytiku/mytiku",
+    "pages/collection/collection",
+    "pages/questiondetail/questiondetail",
+    "pages/record/record",
+    "pages/currentErr/currentErr",
+    "pages/currentErrdetail/currentErrdetail"
+  ],
+
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "不刷题",
+    "navigationBarTextStyle": "black"
+  },
+
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#333333",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "刷题",
+      "iconPath": "images/home-no.png",
+      "selectedIconPath": "images/home-yes.png"
+    }, {
+      "pagePath": "pages/errorlist/errorlist",
+      "text": "错题集",
+      "iconPath": "images/error-no.png",
+      "selectedIconPath": "images/error-yes.png"
+    },{
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "images/me-no.png",
+      "selectedIconPath": "images/me-yes.png"
+    }]
+  },
+  "usingComponents": {}
+  
+}

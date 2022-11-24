@@ -1,0 +1,85 @@
+.swiper{
+  height: 480rpx;
+}
+
+.pic{
+  width:100%;
+}
+
+.content1{
+  margin-top: 40rpx;
+}
+
+.tiku{
+  background-color: rgba(255, 255, 255, 0.568);
+  width: 520rpx;
+  padding: 50rpx;
+  /* text-align: center; */
+  border-radius: 5%;
+  margin-top: 30rpx;
+  margin-left: 60rpx; 
+  box-shadow: 2rpx 2rpx 12rpx 2rpx #79797925;
+}
+
+.tikutext{
+  text-shadow:4rpx 4rpx  rgba(140, 195, 240, 0.671);
+  font-family: '黑体';
+  font-size: 140%;
+  /* word-spacing: 5px; */
+}
+
+.eng1{
+  color: rgba(187, 217, 243, 0.493);
+  font-size: 120%;
+  /* font-family: Noto Serif JP; */
+  font-style: italic;
+}
+
+.mytiku{
+  background-color: rgba(255, 255, 255, 0.568);
+  width: 520rpx;
+  padding: 50rpx;
+  /* text-align: center; */
+  border-radius: 5%;
+  margin-top: 30rpx;
+  margin-left: 60rpx; 
+  box-shadow: 2rpx 2rpx 12rpx 2rpx #79797925;
+}
+
+.mytikutext{
+  text-shadow:4rpx 4rpx  rgba(140, 195, 240, 0.671);
+  font-family: '黑体';
+  font-size: 135%;
+  word-spacing: -6px;
+}
+
+.likes{
+  background-color: rgba(255, 255, 255, 0.568);
+  width: 520rpx;
+  padding: 50rpx;
+  /* text-align: center; */
+  border-radius: 5%;
+  margin-top: 30rpx;
+  margin-left: 60rpx; 
+  box-shadow: 2rpx 2rpx 12rpx 2rpx #79797925;
+}
+
+.mylikestext{
+  text-shadow:4rpx 4rpx  rgba(140, 195, 240, 0.671);
+  font-family: '黑体';
+  font-size: 135%;
+  word-spacing: -6px;
+}
+
+.right_arrow
+{
+    margin-top:16rpx;
+    margin-right: 80rpx;
+    border:solid rgba(3, 3, 3, 0.192);
+    border-width:0 6rpx 6rpx 0;
+    padding:6rpx;
+    position:absolute;
+    right:30rpx;
+    transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+}

@@ -1,0 +1,23 @@
+<view class="content1">
+  <view class="subcontain"  bindtap="goxiaoxue1chinese">
+      <view>
+        <text class="subtext">语 文</text>
+        <text class="right_arrow"></text>
+        <text class="eng1"> Chinese</text>
+      </view>
+  </view>
+  <view class="subcontain" bindtap="goxiaoxue1math">
+    <view>
+      <text class="subtext">数 学</text>
+      <text class="right_arrow"></text>
+      <text class="eng1"> Math</text>
+    </view>
+  </view>
+  <view class="subcontain"  bindtap="goxiaoxue1english">
+      <view>
+        <text class="subtext">英 语</text>
+        <text class="right_arrow"></text>
+        <text class="eng1"> English</text>
+      </view>
+  </view>
+</view>

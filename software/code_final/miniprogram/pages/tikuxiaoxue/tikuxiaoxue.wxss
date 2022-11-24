@@ -1,0 +1,45 @@
+.gradecontain{
+  background-color: rgba(255, 255, 255, 0.568);
+  width: 140rpx;
+  padding: 50rpx;
+  /* text-align: center; */
+  border-radius: 10%;
+  margin-top: 60rpx;
+  margin-right: 40rpx;
+  margin-left: 40rpx;
+  box-shadow: 2rpx 2rpx 8rpx 2rpx #7979795d;
+}
+
+.gradecontain2{
+  background-color: rgba(255, 255, 255, 0.568);
+  width: 140rpx;
+  padding: 50rpx;
+  /* text-align: center; */
+  border-radius: 10%;
+  margin-top: 30rpx;
+  margin-right: 40rpx;
+  margin-left: 40rpx;
+  box-shadow: 2rpx 2rpx 8rpx 2rpx #7979795d;
+}
+
+.grade{
+  color: rgba(2, 2, 2, 0.788);
+  text-shadow:4rpx 4rpx  rgba(107, 107, 107, 0.267);
+  font-family: '黑体';
+  font-size: 130%;
+  word-spacing: -16rpx; 
+  text-align: center;
+}
+
+.eng{
+  color: rgba(85, 85, 85, 0.164);
+  font-size: 100%;
+  /* font-family: Noto Serif JP; */
+  font-style: italic;
+}
+
+.container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

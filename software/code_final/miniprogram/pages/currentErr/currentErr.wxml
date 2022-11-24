@@ -1,0 +1,11 @@
+
+<view class="question" wx:for="{{question}}">
+    <view bindtap="seeQuestion" data-index="{{index}}" class="title">{{index+1}}：{{item.title}}</view>
+    <view wx:if="{{item.answer==item.user_select}}">
+    <image src="/images/correct.png" bindtap="next" style="width:25px" mode="widthFix" class="correct"></image>
+     </view>
+     <view   wx:else>
+      <image src="/images/wrong.png" bindtap="next" style="width:25px" mode="widthFix" class="wrong"></image>
+     </view>
+  </view>
+

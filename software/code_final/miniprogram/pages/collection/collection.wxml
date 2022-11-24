@@ -1,0 +1,10 @@
+<view wx:if="{{total>0}}">
+<view class="question" wx:for="{{question}}">
+    <view bindtap="question" data-index="{{index}}" class="title">{{index+1}}. {{item}}</view>
+    <text class="right_arrow"></text>
+  </view>
+</view>
+<view  class="collectNULL" wx:else>
+  <text class="littletips1">您收藏的记录会自动记录在这里</text>
+  <button type="primary" bindtap="collectNULL">去练习</button>
+</view>

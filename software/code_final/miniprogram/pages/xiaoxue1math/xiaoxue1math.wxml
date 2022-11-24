@@ -1,0 +1,41 @@
+<progress percent="{{percent}}" active stroke-width="5" />
+<view class="content">
+<view class="num">第{{current}}题/共{{total}}题</view>
+
+<view class="add">
+<image src="/images/star.png" class="image" bindtap="shoucang"></image>
+<image src="/images/home.png" class="image" bindtap="gohome"></image>
+<image src="/images/add.png" bindtap="addmytiku" class="image"></image>
+</view>
+</view>
+<view class="square">
+<view class="question" >题目：{{subject.title}}</view>
+
+<radio-group bindchange="radioChange">
+  <view wx:for="{{subject.options}}" class="option">
+    <radio value="{{item.code}}"  checked="{{isSelect==item.code}}"/>
+    <text class="option2">{{item.code}}:{{item.content}}</text>
+  </view>
+</radio-group>
+<view wx:if="{{notSubmit}}" bindtap="submit" class="submit">提交答题</view>
+<view wx:else class="submitover">已提交</view>
+</view>
+<view class="btn_root">
+<view>
+  <image src="/images/left.png" bindtap="pre" class="image2"></image>
+<view bindtap="pre" class="left2">上一题</view>
+</view>
+<view>
+  <image src="/images/right.png" bindtap="next" class="image2"></image>
+  <view bindtap="next" >下一题</view>
+</view>
+
+</view>
+<view wx:if="{{totalScore > -1}}">
+<view>您的分数是：{{totalScore}}</view>
+<view bindtap="seeError" wx:if="{{falseNum > 0}}">
+您答错了{{falseNum}}道题,点击这里查看错题集
+</view>
+</view>
+
+

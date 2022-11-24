@@ -1,0 +1,4 @@
+<view bindtap="gotikuxiaoxue">小学</view>
+<view>初中</view>
+<view>高中</view>
+<view>大学</view>

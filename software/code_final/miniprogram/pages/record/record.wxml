@@ -1,0 +1,58 @@
+<!--pages/record/record.wxml-->
+<text class="textmydata">我的数据</text>
+
+<view class="contain2">
+<view class="today">
+  <text class="todaytext">今日</text>
+  <text class="eng">Today</text>
+</view>
+<view class="contain11">
+  <view class="contain1">
+    <text class="qtext">今日刷题数</text>
+    <view>
+      <text class="qnums">10</text>
+      <text>道</text>
+    </view>
+  </view>
+  <view class="textmin">越努力 越幸运</view>
+</view>
+<view class="contain12">
+  <view class="contain1">
+    <text class="qtext">今日学习时长</text>
+    <view>
+      <text class="qnums">2</text>
+      <text>时</text>
+    </view>
+  </view>
+  <view class="textmin">放弃很简单 但坚持一定很酷</view>
+</view>
+</view>
+
+<view class="contain3">
+<view class="today">
+  <text class="todaytext">累计</text>
+  <text class="eng">Total</text>
+</view>
+<view class="contain11">
+  <view class="contain1">
+    <text class="qtext">累计刷题数</text>
+    <view>
+      <text class="qnums">100</text>
+      <text>道</text>
+    </view>
+  </view>
+  <view class="textmin">永不放弃</view>
+</view>
+<view class="contain12">
+  <view class="contain1">
+    <text class="qtext">累计学习时长</text>
+    <view>
+      <text class="qnums">200</text>
+      <text>时</text>
+    </view>
+  </view>
+  <view class="textmin">成为更好的自己</view>
+</view>
+</view>
+
+

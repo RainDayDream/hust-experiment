@@ -1,0 +1,26 @@
+<view class="content">
+<view>第{{current}}题/共{{total}}题</view>
+<button size="mini" plain bindtap="addmytiku">添加到我的题库</button>
+</view>
+<progress percent="{{percent}}" show-info stroke-width="10" border-radius="20" />
+<view>题目：{{subject.title}}</view>
+<radio-group bindchange="radioChange">
+  <view wx:for="{{subject.options}}">
+    <radio value="{{item.code}}"  checked="{{isSelect}}"/>
+    <text>{{item.code}}:{{item.option}}</text>
+  </view>
+</radio-group>
+
+<button type="primary" bindtap="submit">提交答题</button>
+
+<view wx:if="{{totalScore > -1}}">
+<view>您的分数是：{{totalScore}}</view>
+<view bindtap="seeError" wx:if="{{falseNum > 0}}">
+您答错了{{falseNum}}道题,点击这里查看错题集
+</view>
+</view>
+
+<view class="bt_button">
+<button bindtap="shoucang" size="mini">点击收藏</button>
+<button bindtap="gohome" size="mini">回到主页</button>
+</view>

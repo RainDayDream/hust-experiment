@@ -1,0 +1,106 @@
+.red {
+  color: red;
+}
+
+.green {
+  color: rgb(3, 150, 3);
+  font-weight: 600;
+}
+
+.littletips {
+  font-size: x-small;
+  color: rgba(73, 75, 74, 0.788);
+  width: 750rpx;
+  text-align: center;
+  /* 左右居中 */
+  display: flex;
+  height: 100rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.errNULL {
+  margin-top: 400rpx;
+  height: 700rpx;
+}
+
+.btn_root {
+  display: flex;
+  justify-content: space-around;
+  margin: 40rpx;
+  margin-top: 60rpx;
+}
+
+
+.square {
+  left: 30rpx;
+  top: 376rpx;
+  width: 670rpx;
+  height: 800rpx;
+  line-height: 40rpx;
+  border-radius: 40rpx;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 28rpx;
+  box-shadow: 2rpx 2rpx 10rpx 2rpx rgba(214, 214, 214, 100);
+  font-family: Arial;
+  border: 2rpx solid rgba(255, 0, 0, 0);
+  margin-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.num {
+  position: relative;
+  margin-left: 80rpx;
+  margin-top: 36rpx;
+  margin-bottom: 40rpx;
+}
+
+.question {
+  margin-left: 80rpx;
+  margin-right: 60rpx;
+  margin-bottom: 70rpx;
+  margin-top: 70rpx;
+  font-weight: 800;
+
+}
+
+.option {
+  margin-left: 80rpx;
+  margin-bottom: 70rpx;
+
+}
+
+.option2 {
+  margin-left: 10rpx;
+}
+
+.correctAns {
+  margin-left: 80rpx;
+}
+
+.image2 {
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 20rpx;
+}
+
+.delete {
+  color: red;
+  margin-right: 20rpx;
+  margin-top: 36rpx;
+  margin-bottom: 40rpx;
+  position: absolute;
+  /* 相对relative也可以 */
+  right: 0;
+  /* 靠右调节 */
+  margin-right: 70rpx
+}
+
+.pro {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+}
