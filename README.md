@@ -1,4 +1,4 @@
 # README
 
 - computer_network:计网实验
-- operate_system:操作系统实验
+- software：软件工程大作业
