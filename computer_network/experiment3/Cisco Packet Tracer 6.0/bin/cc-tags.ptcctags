@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tags>
+	<tag id="Basic Device Management.File Management.Commands" name="Basic Device Management.File Management.Commands"/>
+	<tag id="Basic Device Management.File Management.None" name="Basic Device Management.File Management.None"/>
+	<tag id="Basic Device Management.File Management.Other" name="Basic Device Management.File Management.Other"/>
+	<tag id="Basic Device Management.File Management.Permissions" name="Basic Device Management.File Management.Permissions"/>
+	<tag id="Basic Device Management.File Management.Recovery" name="Basic Device Management.File Management.Recovery"/>
+	<tag id="Basic Device Management.File Management.Requirements" name="Basic Device Management.File Management.Requirements"/>
+	<tag id="Basic Device Management.File Management.Backup" name="Basic Device Management.File Management.Backup"/>
+	<tag id="Basic Device Management.Initial Device Config.CLI" name="Basic Device Management.Initial Device Config.CLI"/>
+	<tag id="Basic Device Management.Initial Device Config.GUI" name="Basic Device Management.Initial Device Config.GUI"/>
+	<tag id="Basic Device Management.Initial Device Config.Interfaces" name="Basic Device Management.Initial Device Config.Interfaces"/>
+	<tag id="Basic Device Management.Initial Device Config.Modes" name="Basic Device Management.Initial Device Config.Modes"/>
+	<tag id="Basic Device Management.Initial Device Config.None" name="Basic Device Management.Initial Device Config.None"/>
+	<tag id="Basic Device Management.Initial Device Config.Other" name="Basic Device Management.Initial Device Config.Other"/>
+	<tag id="Basic Device Management.Initial Device Config.Prompts" name="Basic Device Management.Initial Device Config.Prompts"/>
+	<tag id="Basic Device Management.Initial Device Config.Security" name="Basic Device Management.Initial Device Config.Security"/>
+	<tag id="Basic Device Management.Initial Device Config.Short Cuts" name="Basic Device Management.Initial Device Config.Short Cuts"/>
+	<tag id="Basic Device Management.Initial Device Config.Access" name="Basic Device Management.Initial Device Config.Access"/>
+	<tag id="Basic Device Management.Initial Device Config.Verify" name="Basic Device Management.Initial Device Config.Verify"/>
+	<tag id="Basic Device Management.Remote Access.Commands" name="Basic Device Management.Remote Access.Commands"/>
+	<tag id="Basic Device Management.Remote Access.None" name="Basic Device Management.Remote Access.None"/>
+	<tag id="Basic Device Management.Remote Access.Other" name="Basic Device Management.Remote Access.Other"/>
+	<tag id="Basic Device Management.Remote Access.SSH" name="Basic Device Management.Remote Access.SSH"/>
+	<tag id="Basic Device Management.Remote Access.Telnet" name="Basic Device Management.Remote Access.Telnet"/>
+	<tag id="Basic Device Management.Remote Access.VTY" name="Basic Device Management.Remote Access.VTY"/>
+	<tag id="Basic Device Management.Remote Access.XMODEM" name="Basic Device Management.Remote Access.XMODEM"/>
+	<tag id="Healthcare.EHRs.None" name="Healthcare.EHRs.None"/>
+	<tag id="Healthcare.EHRs.Other" name="Healthcare.EHRs.Other"/>
+	<tag id="Healthcare.EHR system design.None" name="Healthcare.EHR system design.None"/>
+	<tag id="Healthcare.EHR system design.Other" name="Healthcare.EHR system design.Other"/>
+	<tag id="Human Factor.Soft Skills.Customer Service" name="Human Factor.Soft Skills.Customer Service"/>
+	<tag id="Human Factor.Soft Skills.Interview" name="Human Factor.Soft Skills.Interview"/>
+	<tag id="Human Factor.Soft Skills.None" name="Human Factor.Soft Skills.None"/>
+	<tag id="Human Factor.Soft Skills.Other" name="Human Factor.Soft Skills.Other"/>
+	<tag id="Human Factor.Soft Skills.Presentation" name="Human Factor.Soft Skills.Presentation"/>
+	<tag id="Human Factor.Soft Skills.Verbal" name="Human Factor.Soft Skills.Verbal"/>
+	<tag id="Human Factor.Soft Skills.Writing" name="Human Factor.Soft Skills.Writing"/>
+	<tag id="Human Factor.Safety.Environment" name="Human Factor.Safety.Environment"/>
+	<tag id="Human Factor.Safety.Equipment" name="Human Factor.Safety.Equipment"/>
+	<tag id="Human Factor.Safety.None" name="Human Factor.Safety.None"/>
+	<tag id="Human Factor.Safety.Other" name="Human Factor.Safety.Other"/>
+	<tag id="Human Factor.Safety.Power" name="Human Factor.Safety.Power"/>
+	<tag id="Human Factor.Safety.Tools" name="Human Factor.Safety.Tools"/>
+	<tag id="Human Factor.Basic Knowledge.Computers" name="Human Factor.Basic Knowledge.Computers"/>
+	<tag id="Human Factor.Basic Knowledge.Logic" name="Human Factor.Basic Knowledge.Logic"/>
+	<tag id="Human Factor.Basic Knowledge.Mathematics" name="Human Factor.Basic Knowledge.Mathematics"/>
+	<tag id="Human Factor.Basic Knowledge.None" name="Human Factor.Basic Knowledge.None"/>
+	<tag id="Human Factor.Basic Knowledge.Other" name="Human Factor.Basic Knowledge.Other"/>
+	<tag id="IP Addressing.IPv.Components" name="IP Addressing.IPv.Components"/>
+	<tag id="IP Addressing.IPv.End Devices" name="IP Addressing.IPv.End Devices"/>
+	<tag id="IP Addressing.IPv.header" name="IP Addressing.IPv.header"/>
+	<tag id="IP Addressing.IPv.None" name="IP Addressing.IPv.None"/>
+	<tag id="IP Addressing.IPv.Other" name="IP Addressing.IPv.Other"/>
+	<tag id="IP Addressing.IPv.Requirements" name="IP Addressing.IPv.Requirements"/>
+	<tag id="IP Addressing.IPv.Subnet Mask" name="IP Addressing.IPv.Subnet Mask"/>
+	<tag id="IP Addressing.IPv.Summarization" name="IP Addressing.IPv.Summarization"/>
+	<tag id="IP Addressing.IPv.Types" name="IP Addressing.IPv.Types"/>
+	<tag id="IP Addressing.IPv.Usage" name="IP Addressing.IPv.Usage"/>
+	<tag id="IP Addressing.IPv.VLSM" name="IP Addressing.IPv.VLSM"/>
+	<tag id="IP Addressing.IPv.Hosts" name="IP Addressing.IPv.Hosts"/>
+	<tag id="IP Addressing.IPv.Networks" name="IP Addressing.IPv.Networks"/>
+	<tag id="IP Addressing.IPv.header" name="IP Addressing.IPv.header"/>
+	<tag id="IP Addressing.IPv.None" name="IP Addressing.IPv.None"/>
+	<tag id="IP Addressing.IPv.Other" name="IP Addressing.IPv.Other"/>
+	<tag id="IP Addressing.IPv.Structure" name="IP Addressing.IPv.Structure"/>
+	<tag id="IP Addressing.IPv.Types" name="IP Addressing.IPv.Types"/>
+	<tag id="IP Addressing.IPv.Usage" name="IP Addressing.IPv.Usage"/>
+	<tag id="IP Addressing.IPv.Migration" name="IP Addressing.IPv.Migration"/>
+	<tag id="Network Basics.Ethernet.Data Link Layer" name="Network Basics.Ethernet.Data Link Layer"/>
+	<tag id="Network Basics.Ethernet.Frame" name="Network Basics.Ethernet.Frame"/>
+	<tag id="Network Basics.Ethernet.Layers" name="Network Basics.Ethernet.Layers"/>
+	<tag id="Network Basics.Ethernet.MAC" name="Network Basics.Ethernet.MAC"/>
+	<tag id="Network Basics.Ethernet.Network Interface" name="Network Basics.Ethernet.Network Interface"/>
+	<tag id="Network Basics.Ethernet.None" name="Network Basics.Ethernet.None"/>
+	<tag id="Network Basics.Ethernet.Operation" name="Network Basics.Ethernet.Operation"/>
+	<tag id="Network Basics.Ethernet.Other" name="Network Basics.Ethernet.Other"/>
+	<tag id="Network Basics.Hardware.Connectivity" name="Network Basics.Hardware.Connectivity"/>
+	<tag id="Network Basics.Hardware.External Components" name="Network Basics.Hardware.External Components"/>
+	<tag id="Network Basics.Hardware.Internal Components" name="Network Basics.Hardware.Internal Components"/>
+	<tag id="Network Basics.Hardware.None" name="Network Basics.Hardware.None"/>
+	<tag id="Network Basics.Hardware.Other" name="Network Basics.Hardware.Other"/>
+	<tag id="Network Basics.Hardware.Usage" name="Network Basics.Hardware.Usage"/>
+	<tag id="Network Basics.Protocols.Application Layer" name="Network Basics.Protocols.Application Layer"/>
+	<tag id="Network Basics.Protocols.Data Link Layer" name="Network Basics.Protocols.Data Link Layer"/>
+	<tag id="Network Basics.Protocols.Encapsulation" name="Network Basics.Protocols.Encapsulation"/>
+	<tag id="Network Basics.Protocols.ICMP" name="Network Basics.Protocols.ICMP"/>
+	<tag id="Network Basics.Protocols.Network Layer" name="Network Basics.Protocols.Network Layer"/>
+	<tag id="Network Basics.Protocols.None" name="Network Basics.Protocols.None"/>
+	<tag id="Network Basics.Protocols.Operation" name="Network Basics.Protocols.Operation"/>
+	<tag id="Network Basics.Protocols.OSI/TCP " name="Network Basics.Protocols.OSI/TCP "/>
+	<tag id="Network Basics.Protocols.Other" name="Network Basics.Protocols.Other"/>
+	<tag id="Network Basics.Protocols.Physical Layer" name="Network Basics.Protocols.Physical Layer"/>
+	<tag id="Network Basics.Protocols.Standards" name="Network Basics.Protocols.Standards"/>
+	<tag id="Network Basics.Protocols.TCP/UDP" name="Network Basics.Protocols.TCP/UDP"/>
+	<tag id="Network Basics.Protocols.Transport Layer" name="Network Basics.Protocols.Transport Layer"/>
+	<tag id="Network Basics.Cabling.Characteristics" name="Network Basics.Cabling.Characteristics"/>
+	<tag id="Network Basics.Cabling.Limitations" name="Network Basics.Cabling.Limitations"/>
+	<tag id="Network Basics.Cabling.None" name="Network Basics.Cabling.None"/>
+	<tag id="Network Basics.Cabling.Other" name="Network Basics.Cabling.Other"/>
+	<tag id="Network Basics.Cabling.Requirements" name="Network Basics.Cabling.Requirements"/>
+	<tag id="Network Basics.Cabling.Types" name="Network Basics.Cabling.Types"/>
+	<tag id="Network Basics.Cabling.Uses" name="Network Basics.Cabling.Uses"/>
+	<tag id="Network Basics.Communications.ARP" name="Network Basics.Communications.ARP"/>
+	<tag id="Network Basics.Communications.Characterisitics" name="Network Basics.Communications.Characterisitics"/>
+	<tag id="Network Basics.Communications.Convergence" name="Network Basics.Communications.Convergence"/>
+	<tag id="Network Basics.Communications.Forwarding" name="Network Basics.Communications.Forwarding"/>
+	<tag id="Network Basics.Communications.Local" name="Network Basics.Communications.Local"/>
+	<tag id="Network Basics.Communications.None" name="Network Basics.Communications.None"/>
+	<tag id="Network Basics.Communications.Other" name="Network Basics.Communications.Other"/>
+	<tag id="Network Basics.Communications.Remote" name="Network Basics.Communications.Remote"/>
+	<tag id="Network Basics.Connectivity.Cabling" name="Network Basics.Connectivity.Cabling"/>
+	<tag id="Network Basics.Connectivity.End Devices" name="Network Basics.Connectivity.End Devices"/>
+	<tag id="Network Basics.Connectivity.Media Access " name="Network Basics.Connectivity.Media Access "/>
+	<tag id="Network Basics.Connectivity.None" name="Network Basics.Connectivity.None"/>
+	<tag id="Network Basics.Connectivity.OSI/TCP " name="Network Basics.Connectivity.OSI/TCP "/>
+	<tag id="Network Basics.Connectivity.Other" name="Network Basics.Connectivity.Other"/>
+	<tag id="Network Basics.Connectivity.Topologies" name="Network Basics.Connectivity.Topologies"/>
+	<tag id="Network Basics.Connectivity.Utilities" name="Network Basics.Connectivity.Utilities"/>
+	<tag id="Network Basics.Network Fundamentals.Addressing" name="Network Basics.Network Fundamentals.Addressing"/>
+	<tag id="Network Basics.Network Fundamentals.Collaboration" name="Network Basics.Network Fundamentals.Collaboration"/>
+	<tag id="Network Basics.Network Fundamentals.Components" name="Network Basics.Network Fundamentals.Components"/>
+	<tag id="Network Basics.Network Fundamentals.Internet" name="Network Basics.Network Fundamentals.Internet"/>
+	<tag id="Network Basics.Network Fundamentals.LAN/WAN" name="Network Basics.Network Fundamentals.LAN/WAN"/>
+	<tag id="Network Basics.Network Fundamentals.None" name="Network Basics.Network Fundamentals.None"/>
+	<tag id="Network Basics.Network Fundamentals.Other" name="Network Basics.Network Fundamentals.Other"/>
+	<tag id="Network Basics.Network Fundamentals.Cloud" name="Network Basics.Network Fundamentals.Cloud"/>
+	<tag id="Network Basics.Network Fundamentals.Trends" name="Network Basics.Network Fundamentals.Trends"/>
+	<tag id="Network Design.Topology.Extended Star" name="Network Design.Topology.Extended Star"/>
+	<tag id="Network Design.Topology.Mesh" name="Network Design.Topology.Mesh"/>
+	<tag id="Network Design.Topology.None" name="Network Design.Topology.None"/>
+	<tag id="Network Design.Topology.Other" name="Network Design.Topology.Other"/>
+	<tag id="Network Design.Topology.Ring" name="Network Design.Topology.Ring"/>
+	<tag id="Network Design.Cisco Enterprise Architecture.None" name="Network Design.Cisco Enterprise Architecture.None"/>
+	<tag id="Network Design.Cisco Enterprise Architecture.Other" name="Network Design.Cisco Enterprise Architecture.Other"/>
+	<tag id="Network Design.Cisco Lifecycle Services.None" name="Network Design.Cisco Lifecycle Services.None"/>
+	<tag id="Network Design.Cisco Lifecycle Services.Other" name="Network Design.Cisco Lifecycle Services.Other"/>
+	<tag id="Network Design.Core/Distribution/Access.Borderless" name="Network Design.Core/Distribution/Access.Borderless"/>
+	<tag id="Network Design.Core/Distribution/Access.Collaboration" name="Network Design.Core/Distribution/Access.Collaboration"/>
+	<tag id="Network Design.Core/Distribution/Access.Collapsed Core" name="Network Design.Core/Distribution/Access.Collapsed Core"/>
+	<tag id="Network Design.Core/Distribution/Access.Converged" name="Network Design.Core/Distribution/Access.Converged"/>
+	<tag id="Network Design.Core/Distribution/Access.None" name="Network Design.Core/Distribution/Access.None"/>
+	<tag id="Network Design.Core/Distribution/Access.Other" name="Network Design.Core/Distribution/Access.Other"/>
+	<tag id="Network Design.Core/Distribution/Access.Virtualization" name="Network Design.Core/Distribution/Access.Virtualization"/>
+	<tag id="Network Design.Design Process.None" name="Network Design.Design Process.None"/>
+	<tag id="Network Design.Design Process.Other" name="Network Design.Design Process.Other"/>
+	<tag id="Network Management Troubleshooting.Disaster Recovery.None" name="Network Management Troubleshooting.Disaster Recovery.None"/>
+	<tag id="Network Management Troubleshooting.Disaster Recovery.Other" name="Network Management Troubleshooting.Disaster Recovery.Other"/>
+	<tag id="Network Management Troubleshooting.Monitoring.Baseline" name="Network Management Troubleshooting.Monitoring.Baseline"/>
+	<tag id="Network Management Troubleshooting.Monitoring.Debug" name="Network Management Troubleshooting.Monitoring.Debug"/>
+	<tag id="Network Management Troubleshooting.Monitoring.None" name="Network Management Troubleshooting.Monitoring.None"/>
+	<tag id="Network Management Troubleshooting.Monitoring.Other" name="Network Management Troubleshooting.Monitoring.Other"/>
+	<tag id="Network Management Troubleshooting.Monitoring.SNMP" name="Network Management Troubleshooting.Monitoring.SNMP"/>
+	<tag id="Network Management Troubleshooting.Monitoring.Syslog" name="Network Management Troubleshooting.Monitoring.Syslog"/>
+	<tag id="Network Management Troubleshooting.Monitoring.Traffic Flow" name="Network Management Troubleshooting.Monitoring.Traffic Flow"/>
+	<tag id="Network Management Troubleshooting.Troubleshooting.Command Output" name="Network Management Troubleshooting.Troubleshooting.Command Output"/>
+	<tag id="Network Management Troubleshooting.Troubleshooting.Documentation" name="Network Management Troubleshooting.Troubleshooting.Documentation"/>
+	<tag id="Network Management Troubleshooting.Troubleshooting.None" name="Network Management Troubleshooting.Troubleshooting.None"/>
+	<tag id="Network Management Troubleshooting.Troubleshooting.Other" name="Network Management Troubleshooting.Troubleshooting.Other"/>
+	<tag id="Network Management Troubleshooting.Troubleshooting.Systematic Approach" name="Network Management Troubleshooting.Troubleshooting.Systematic Approach"/>
+	<tag id="Network Services.DHCP.Activation" name="Network Services.DHCP.Activation"/>
+	<tag id="Network Services.DHCP.Addressing" name="Network Services.DHCP.Addressing"/>
+	<tag id="Network Services.DHCP.Commands" name="Network Services.DHCP.Commands"/>
+	<tag id="Network Services.DHCP.None" name="Network Services.DHCP.None"/>
+	<tag id="Network Services.DHCP.Operation" name="Network Services.DHCP.Operation"/>
+	<tag id="Network Services.DHCP.Other" name="Network Services.DHCP.Other"/>
+	<tag id="Network Services.DNS.None" name="Network Services.DNS.None"/>
+	<tag id="Network Services.DNS.Other" name="Network Services.DNS.Other"/>
+	<tag id="Network Services.NAT/PAT.ACL" name="Network Services.NAT/PAT.ACL"/>
+	<tag id="Network Services.NAT/PAT.Commands" name="Network Services.NAT/PAT.Commands"/>
+	<tag id="Network Services.NAT/PAT.None" name="Network Services.NAT/PAT.None"/>
+	<tag id="Network Services.NAT/PAT.Operation" name="Network Services.NAT/PAT.Operation"/>
+	<tag id="Network Services.NAT/PAT.Other" name="Network Services.NAT/PAT.Other"/>
+	<tag id="Network Services.NAT/PAT.Pool" name="Network Services.NAT/PAT.Pool"/>
+	<tag id="Network Services.NAT/PAT.Purpose" name="Network Services.NAT/PAT.Purpose"/>
+	<tag id="Routing.EIGRP.Activation" name="Routing.EIGRP.Activation"/>
+	<tag id="Routing.EIGRP.Commands" name="Routing.EIGRP.Commands"/>
+	<tag id="Routing.EIGRP.Customize" name="Routing.EIGRP.Customize"/>
+	<tag id="Routing.EIGRP.History" name="Routing.EIGRP.History"/>
+	<tag id="Routing.EIGRP.IPv" name="Routing.EIGRP.IPv"/>
+	<tag id="Routing.EIGRP.Metrics" name="Routing.EIGRP.Metrics"/>
+	<tag id="Routing.EIGRP.None" name="Routing.EIGRP.None"/>
+	<tag id="Routing.EIGRP.Operation" name="Routing.EIGRP.Operation"/>
+	<tag id="Routing.EIGRP.Other" name="Routing.EIGRP.Other"/>
+	<tag id="Routing.EIGRP.Summarization" name="Routing.EIGRP.Summarization"/>
+	<tag id="Routing.Inter-VLAN..q" name="Routing.Inter-VLAN..q"/>
+	<tag id="Routing.Inter-VLAN.Default Gateway" name="Routing.Inter-VLAN.Default Gateway"/>
+	<tag id="Routing.Inter-VLAN.None" name="Routing.Inter-VLAN.None"/>
+	<tag id="Routing.Inter-VLAN.Other" name="Routing.Inter-VLAN.Other"/>
+	<tag id="Routing.Inter-VLAN.Subinterface" name="Routing.Inter-VLAN.Subinterface"/>
+	<tag id="Routing.OSPF.Activation" name="Routing.OSPF.Activation"/>
+	<tag id="Routing.OSPF.Commands" name="Routing.OSPF.Commands"/>
+	<tag id="Routing.OSPF.Customize" name="Routing.OSPF.Customize"/>
+	<tag id="Routing.OSPF.Metrics" name="Routing.OSPF.Metrics"/>
+	<tag id="Routing.OSPF.Multi-Area" name="Routing.OSPF.Multi-Area"/>
+	<tag id="Routing.OSPF.None" name="Routing.OSPF.None"/>
+	<tag id="Routing.OSPF.Operation" name="Routing.OSPF.Operation"/>
+	<tag id="Routing.OSPF.Other" name="Routing.OSPF.Other"/>
+	<tag id="Routing.OSPF.Summarization" name="Routing.OSPF.Summarization"/>
+	<tag id="Routing.OSPF.Activation" name="Routing.OSPF.Activation"/>
+	<tag id="Routing.OSPF.Commands" name="Routing.OSPF.Commands"/>
+	<tag id="Routing.OSPF.Customize" name="Routing.OSPF.Customize"/>
+	<tag id="Routing.OSPF.None" name="Routing.OSPF.None"/>
+	<tag id="Routing.OSPF.Other" name="Routing.OSPF.Other"/>
+	<tag id="Routing.RIP.Activation" name="Routing.RIP.Activation"/>
+	<tag id="Routing.RIP.Commands" name="Routing.RIP.Commands"/>
+	<tag id="Routing.RIP.Metric" name="Routing.RIP.Metric"/>
+	<tag id="Routing.RIP.None" name="Routing.RIP.None"/>
+	<tag id="Routing.RIP.Operation" name="Routing.RIP.Operation"/>
+	<tag id="Routing.RIP.Other" name="Routing.RIP.Other"/>
+	<tag id="Routing.RIP.Summarization" name="Routing.RIP.Summarization"/>
+	<tag id="Routing.RIP.Version" name="Routing.RIP.Version"/>
+	<tag id="Routing.Routing Fundamentals.Administrative Distance" name="Routing.Routing Fundamentals.Administrative Distance"/>
+	<tag id="Routing.Routing Fundamentals.Convergence" name="Routing.Routing Fundamentals.Convergence"/>
+	<tag id="Routing.Routing Fundamentals.Default Gateway" name="Routing.Routing Fundamentals.Default Gateway"/>
+	<tag id="Routing.Routing Fundamentals.Directly Connected" name="Routing.Routing Fundamentals.Directly Connected"/>
+	<tag id="Routing.Routing Fundamentals.Distance Vector" name="Routing.Routing Fundamentals.Distance Vector"/>
+	<tag id="Routing.Routing Fundamentals.Hierarchial Design" name="Routing.Routing Fundamentals.Hierarchial Design"/>
+	<tag id="Routing.Routing Fundamentals.Link-State" name="Routing.Routing Fundamentals.Link-State"/>
+	<tag id="Routing.Routing Fundamentals.Metrics" name="Routing.Routing Fundamentals.Metrics"/>
+	<tag id="Routing.Routing Fundamentals.Network Layer" name="Routing.Routing Fundamentals.Network Layer"/>
+	<tag id="Routing.Routing Fundamentals.None" name="Routing.Routing Fundamentals.None"/>
+	<tag id="Routing.Routing Fundamentals.Other" name="Routing.Routing Fundamentals.Other"/>
+	<tag id="Routing.Routing Fundamentals.Path Selection" name="Routing.Routing Fundamentals.Path Selection"/>
+	<tag id="Routing.Routing Fundamentals.Routing Table" name="Routing.Routing Fundamentals.Routing Table"/>
+	<tag id="Routing.Routing Fundamentals.Static Route" name="Routing.Routing Fundamentals.Static Route"/>
+	<tag id="Routing.Routing Hardware.Components" name="Routing.Routing Hardware.Components"/>
+	<tag id="Routing.Routing Hardware.Features" name="Routing.Routing Hardware.Features"/>
+	<tag id="Routing.Routing Hardware.Form Factors" name="Routing.Routing Hardware.Form Factors"/>
+	<tag id="Routing.Routing Hardware.Interfaces" name="Routing.Routing Hardware.Interfaces"/>
+	<tag id="Routing.Routing Hardware.None" name="Routing.Routing Hardware.None"/>
+	<tag id="Routing.Routing Hardware.Other" name="Routing.Routing Hardware.Other"/>
+	<tag id="Routing.Routing Hardware.Usage" name="Routing.Routing Hardware.Usage"/>
+	<tag id="Security.ACL.Activation" name="Security.ACL.Activation"/>
+	<tag id="Security.ACL.Commands" name="Security.ACL.Commands"/>
+	<tag id="Security.ACL.None" name="Security.ACL.None"/>
+	<tag id="Security.ACL.Operation" name="Security.ACL.Operation"/>
+	<tag id="Security.ACL.Other" name="Security.ACL.Other"/>
+	<tag id="Security.ACL.Types" name="Security.ACL.Types"/>
+	<tag id="Security.ACL.Usage" name="Security.ACL.Usage"/>
+	<tag id="Security.Cryptography.None" name="Security.Cryptography.None"/>
+	<tag id="Security.Cryptography.Other" name="Security.Cryptography.Other"/>
+	<tag id="Security.Firewall.None" name="Security.Firewall.None"/>
+	<tag id="Security.Firewall.Other" name="Security.Firewall.Other"/>
+	<tag id="Security.IDS/IPS.None" name="Security.IDS/IPS.None"/>
+	<tag id="Security.IDS/IPS.Other" name="Security.IDS/IPS.Other"/>
+	<tag id="Security.Security Fundamentals.Attacks" name="Security.Security Fundamentals.Attacks"/>
+	<tag id="Security.Security Fundamentals.Hardening" name="Security.Security Fundamentals.Hardening"/>
+	<tag id="Security.Security Fundamentals.Mitigation" name="Security.Security Fundamentals.Mitigation"/>
+	<tag id="Security.Security Fundamentals.Monitoring" name="Security.Security Fundamentals.Monitoring"/>
+	<tag id="Security.Security Fundamentals.None" name="Security.Security Fundamentals.None"/>
+	<tag id="Security.Security Fundamentals.Other" name="Security.Security Fundamentals.Other"/>
+	<tag id="Security.Security Fundamentals.Passwords" name="Security.Security Fundamentals.Passwords"/>
+	<tag id="Security.Security Fundamentals.Policy" name="Security.Security Fundamentals.Policy"/>
+	<tag id="Security.Security Fundamentals.Standards" name="Security.Security Fundamentals.Standards"/>
+	<tag id="Security.Security Fundamentals.Threats" name="Security.Security Fundamentals.Threats"/>
+	<tag id="Security.Security Fundamentals.Tools" name="Security.Security Fundamentals.Tools"/>
+	<tag id="Security.VPN.Authentication" name="Security.VPN.Authentication"/>
+	<tag id="Security.VPN.Benefits" name="Security.VPN.Benefits"/>
+	<tag id="Security.VPN.Commands" name="Security.VPN.Commands"/>
+	<tag id="Security.VPN.Encryption" name="Security.VPN.Encryption"/>
+	<tag id="Security.VPN.None" name="Security.VPN.None"/>
+	<tag id="Security.VPN.Other" name="Security.VPN.Other"/>
+	<tag id="Security.VPN.Tunnels" name="Security.VPN.Tunnels"/>
+	<tag id="Security.VPN.Usage" name="Security.VPN.Usage"/>
+	<tag id="Security.AAA.Authentication" name="Security.AAA.Authentication"/>
+	<tag id="Security.AAA.Commands" name="Security.AAA.Commands"/>
+	<tag id="Security.AAA.None" name="Security.AAA.None"/>
+	<tag id="Security.AAA.Other" name="Security.AAA.Other"/>
+	<tag id="Security.AAA.Purpose" name="Security.AAA.Purpose"/>
+	<tag id="Security.AAA.TACACS" name="Security.AAA.TACACS"/>
+	<tag id="Security.Basic Router Security.Authentication" name="Security.Basic Router Security.Authentication"/>
+	<tag id="Security.Basic Router Security.AutoSecure" name="Security.Basic Router Security.AutoSecure"/>
+	<tag id="Security.Basic Router Security.Encryption" name="Security.Basic Router Security.Encryption"/>
+	<tag id="Security.Basic Router Security.Impact" name="Security.Basic Router Security.Impact"/>
+	<tag id="Security.Basic Router Security.None" name="Security.Basic Router Security.None"/>
+	<tag id="Security.Basic Router Security.Other" name="Security.Basic Router Security.Other"/>
+	<tag id="Security.Basic Router Security.Passwords" name="Security.Basic Router Security.Passwords"/>
+	<tag id="Security.Basic Router Security.Vulnerability" name="Security.Basic Router Security.Vulnerability"/>
+	<tag id="Security.Basic Switch Security.Hierarchy" name="Security.Basic Switch Security.Hierarchy"/>
+	<tag id="Security.Basic Switch Security.Multilayer" name="Security.Basic Switch Security.Multilayer"/>
+	<tag id="Security.Basic Switch Security.None" name="Security.Basic Switch Security.None"/>
+	<tag id="Security.Basic Switch Security.Operation" name="Security.Basic Switch Security.Operation"/>
+	<tag id="Security.Basic Switch Security.Other" name="Security.Basic Switch Security.Other"/>
+	<tag id="Security.Basic Switch Security.Purpose" name="Security.Basic Switch Security.Purpose"/>
+	<tag id="Security.Basic Switch Security.Routing" name="Security.Basic Switch Security.Routing"/>
+	<tag id="Security.Basic Switch Security.Security" name="Security.Basic Switch Security.Security"/>
+	<tag id="Software.Operating Systems (OS/IOS).Features" name="Software.Operating Systems (OS/IOS).Features"/>
+	<tag id="Software.Operating Systems (OS/IOS).Image Files" name="Software.Operating Systems (OS/IOS).Image Files"/>
+	<tag id="Software.Operating Systems (OS/IOS).Licensing" name="Software.Operating Systems (OS/IOS).Licensing"/>
+	<tag id="Software.Operating Systems (OS/IOS).None" name="Software.Operating Systems (OS/IOS).None"/>
+	<tag id="Software.Operating Systems (OS/IOS).Other" name="Software.Operating Systems (OS/IOS).Other"/>
+	<tag id="Software.Operating Systems (OS/IOS).ROMmon" name="Software.Operating Systems (OS/IOS).ROMmon"/>
+	<tag id="Software.Operating Systems (OS/IOS).Upgrade" name="Software.Operating Systems (OS/IOS).Upgrade"/>
+	<tag id="Software.Operating Systems (OS/IOS).Boot Process" name="Software.Operating Systems (OS/IOS).Boot Process"/>
+	<tag id="Software.CCP.Configuration" name="Software.CCP.Configuration"/>
+	<tag id="Software.CCP.Installation" name="Software.CCP.Installation"/>
+	<tag id="Software.CCP.None" name="Software.CCP.None"/>
+	<tag id="Software.CCP.Operation" name="Software.CCP.Operation"/>
+	<tag id="Software.CCP.Other" name="Software.CCP.Other"/>
+	<tag id="Software.CCP.Purpose" name="Software.CCP.Purpose"/>
+	<tag id="Switching.VTP/Trunking.Client" name="Switching.VTP/Trunking.Client"/>
+	<tag id="Switching.VTP/Trunking.Commands" name="Switching.VTP/Trunking.Commands"/>
+	<tag id="Switching.VTP/Trunking.DTP" name="Switching.VTP/Trunking.DTP"/>
+	<tag id="Switching.VTP/Trunking.Modes" name="Switching.VTP/Trunking.Modes"/>
+	<tag id="Switching.VTP/Trunking.None" name="Switching.VTP/Trunking.None"/>
+	<tag id="Switching.VTP/Trunking.Other" name="Switching.VTP/Trunking.Other"/>
+	<tag id="Switching.VTP/Trunking.Port States" name="Switching.VTP/Trunking.Port States"/>
+	<tag id="Switching.VTP/Trunking.Server" name="Switching.VTP/Trunking.Server"/>
+	<tag id="Switching.VLANs.Activation" name="Switching.VLANs.Activation"/>
+	<tag id="Switching.VLANs.Commands" name="Switching.VLANs.Commands"/>
+	<tag id="Switching.VLANs.Connectivity" name="Switching.VLANs.Connectivity"/>
+	<tag id="Switching.VLANs.Default" name="Switching.VLANs.Default"/>
+	<tag id="Switching.VLANs.Deletion" name="Switching.VLANs.Deletion"/>
+	<tag id="Switching.VLANs.Membership" name="Switching.VLANs.Membership"/>
+	<tag id="Switching.VLANs.None" name="Switching.VLANs.None"/>
+	<tag id="Switching.VLANs.Operation" name="Switching.VLANs.Operation"/>
+	<tag id="Switching.VLANs.Other" name="Switching.VLANs.Other"/>
+	<tag id="Switching.VLANs.Tagging" name="Switching.VLANs.Tagging"/>
+	<tag id="Switching.Layer  Functionality.Hierarchy" name="Switching.Layer  Functionality.Hierarchy"/>
+	<tag id="Switching.Layer  Functionality.Multilayer" name="Switching.Layer  Functionality.Multilayer"/>
+	<tag id="Switching.Layer  Functionality.None" name="Switching.Layer  Functionality.None"/>
+	<tag id="Switching.Layer  Functionality.Operation" name="Switching.Layer  Functionality.Operation"/>
+	<tag id="Switching.Layer  Functionality.Other" name="Switching.Layer  Functionality.Other"/>
+	<tag id="Switching.Layer  Functionality.Purpose" name="Switching.Layer  Functionality.Purpose"/>
+	<tag id="Switching.Layer  Functionality.Routing" name="Switching.Layer  Functionality.Routing"/>
+	<tag id="Switching.Layer  Functionality.Security" name="Switching.Layer  Functionality.Security"/>
+	<tag id="Switching.RSTP.BPDU" name="Switching.RSTP.BPDU"/>
+	<tag id="Switching.RSTP.Bridge ID" name="Switching.RSTP.Bridge ID"/>
+	<tag id="Switching.RSTP.Etherchannel" name="Switching.RSTP.Etherchannel"/>
+	<tag id="Switching.RSTP.None" name="Switching.RSTP.None"/>
+	<tag id="Switching.RSTP.Operation" name="Switching.RSTP.Operation"/>
+	<tag id="Switching.RSTP.Other" name="Switching.RSTP.Other"/>
+	<tag id="Switching.RSTP.Port Roles" name="Switching.RSTP.Port Roles"/>
+	<tag id="Switching.RSTP.Purpose" name="Switching.RSTP.Purpose"/>
+	<tag id="Switching.Switch Commands.ARP" name="Switching.Switch Commands.ARP"/>
+	<tag id="Switching.Switch Commands.IOS " name="Switching.Switch Commands.IOS "/>
+	<tag id="Switching.Switch Commands.None" name="Switching.Switch Commands.None"/>
+	<tag id="Switching.Switch Commands.Other" name="Switching.Switch Commands.Other"/>
+	<tag id="Switching.Switch Commands.Port/Interface " name="Switching.Switch Commands.Port/Interface "/>
+	<tag id="Switching.Switch Commands.Tables" name="Switching.Switch Commands.Tables"/>
+	<tag id="Switching.Switch Commands.VLANs" name="Switching.Switch Commands.VLANs"/>
+	<tag id="Switching.Switching Fundamentals.Commands" name="Switching.Switching Fundamentals.Commands"/>
+	<tag id="Switching.Switching Fundamentals.MAC" name="Switching.Switching Fundamentals.MAC"/>
+	<tag id="Switching.Switching Fundamentals.None" name="Switching.Switching Fundamentals.None"/>
+	<tag id="Switching.Switching Fundamentals.Operation" name="Switching.Switching Fundamentals.Operation"/>
+	<tag id="Switching.Switching Fundamentals.Other" name="Switching.Switching Fundamentals.Other"/>
+	<tag id="Switching.Switching Fundamentals.Port Functions" name="Switching.Switching Fundamentals.Port Functions"/>
+	<tag id="Switching.Switching Fundamentals.Queues" name="Switching.Switching Fundamentals.Queues"/>
+	<tag id="Switching.Switching Fundamentals.Remote Management" name="Switching.Switching Fundamentals.Remote Management"/>
+	<tag id="Switching.Switching Fundamentals.Security" name="Switching.Switching Fundamentals.Security"/>
+	<tag id="Switching.Switching Fundamentals.VLANs" name="Switching.Switching Fundamentals.VLANs"/>
+	<tag id="Switching.Switching Hardware.ASIC" name="Switching.Switching Hardware.ASIC"/>
+	<tag id="Switching.Switching Hardware.Components" name="Switching.Switching Hardware.Components"/>
+	<tag id="Switching.Switching Hardware.Features" name="Switching.Switching Hardware.Features"/>
+	<tag id="Switching.Switching Hardware.Form Factor" name="Switching.Switching Hardware.Form Factor"/>
+	<tag id="Switching.Switching Hardware.Hierarchy" name="Switching.Switching Hardware.Hierarchy"/>
+	<tag id="Switching.Switching Hardware.MDIX" name="Switching.Switching Hardware.MDIX"/>
+	<tag id="Switching.Switching Hardware.None" name="Switching.Switching Hardware.None"/>
+	<tag id="Switching.Switching Hardware.Other" name="Switching.Switching Hardware.Other"/>
+	<tag id="Switching.Switching Hardware.PoE" name="Switching.Switching Hardware.PoE"/>
+	<tag id="TCP IP.TCP/IP.Layers" name="TCP IP.TCP/IP.Layers"/>
+	<tag id="TCP IP.TCP/IP.None" name="TCP IP.TCP/IP.None"/>
+	<tag id="TCP IP.TCP/IP.Operation" name="TCP IP.TCP/IP.Operation"/>
+	<tag id="TCP IP.TCP/IP.Other" name="TCP IP.TCP/IP.Other"/>
+	<tag id="TCP IP.TCP/IP.Purpose" name="TCP IP.TCP/IP.Purpose"/>
+	<tag id="WAN Internet.ISP.Connectivity" name="WAN Internet.ISP.Connectivity"/>
+	<tag id="WAN Internet.ISP.Hierarchy" name="WAN Internet.ISP.Hierarchy"/>
+	<tag id="WAN Internet.ISP.None" name="WAN Internet.ISP.None"/>
+	<tag id="WAN Internet.ISP.Other" name="WAN Internet.ISP.Other"/>
+	<tag id="WAN Internet.ISP.Services" name="WAN Internet.ISP.Services"/>
+	<tag id="WAN Internet.ISP.Support" name="WAN Internet.ISP.Support"/>
+	<tag id="WAN Internet.WAN Fundamentals.Broadband" name="WAN Internet.WAN Fundamentals.Broadband"/>
+	<tag id="WAN Internet.WAN Fundamentals.Cabling" name="WAN Internet.WAN Fundamentals.Cabling"/>
+	<tag id="WAN Internet.WAN Fundamentals.None" name="WAN Internet.WAN Fundamentals.None"/>
+	<tag id="WAN Internet.WAN Fundamentals.Other" name="WAN Internet.WAN Fundamentals.Other"/>
+	<tag id="WAN Internet.WAN Fundamentals.Services" name="WAN Internet.WAN Fundamentals.Services"/>
+	<tag id="WAN Internet.WAN Fundamentals.Technology" name="WAN Internet.WAN Fundamentals.Technology"/>
+	<tag id="WAN Internet.WAN Fundamentals.Terminology" name="WAN Internet.WAN Fundamentals.Terminology"/>
+	<tag id="WAN Internet.WAN Fundamentals.VPN" name="WAN Internet.WAN Fundamentals.VPN"/>
+	<tag id="WAN Internet.WAN Protocols.ATM" name="WAN Internet.WAN Protocols.ATM"/>
+	<tag id="WAN Internet.WAN Protocols.Cable" name="WAN Internet.WAN Protocols.Cable"/>
+	<tag id="WAN Internet.WAN Protocols.Dial-Up" name="WAN Internet.WAN Protocols.Dial-Up"/>
+	<tag id="WAN Internet.WAN Protocols.DOCSIS" name="WAN Internet.WAN Protocols.DOCSIS"/>
+	<tag id="WAN Internet.WAN Protocols.DSL" name="WAN Internet.WAN Protocols.DSL"/>
+	<tag id="WAN Internet.WAN Protocols.Frame Relay" name="WAN Internet.WAN Protocols.Frame Relay"/>
+	<tag id="WAN Internet.WAN Protocols.Metro-Ethernet" name="WAN Internet.WAN Protocols.Metro-Ethernet"/>
+	<tag id="WAN Internet.WAN Protocols.None" name="WAN Internet.WAN Protocols.None"/>
+	<tag id="WAN Internet.WAN Protocols.Other" name="WAN Internet.WAN Protocols.Other"/>
+	<tag id="WAN Internet.WAN Protocols.POTS" name="WAN Internet.WAN Protocols.POTS"/>
+	<tag id="WAN Internet.WAN Protocols.PPP" name="WAN Internet.WAN Protocols.PPP"/>
+	<tag id="WAN Internet.WAN Protocols.Satellite" name="WAN Internet.WAN Protocols.Satellite"/>
+	<tag id="Wireless.Devices.AP" name="Wireless.Devices.AP"/>
+	<tag id="Wireless.Devices.Cellular" name="Wireless.Devices.Cellular"/>
+	<tag id="Wireless.Devices.Linksys" name="Wireless.Devices.Linksys"/>
+	<tag id="Wireless.Devices.None" name="Wireless.Devices.None"/>
+	<tag id="Wireless.Devices.Other" name="Wireless.Devices.Other"/>
+	<tag id="Wireless.Limitations.Antennas" name="Wireless.Limitations.Antennas"/>
+	<tag id="Wireless.Limitations.Coverage" name="Wireless.Limitations.Coverage"/>
+	<tag id="Wireless.Limitations.Environment" name="Wireless.Limitations.Environment"/>
+	<tag id="Wireless.Limitations.None" name="Wireless.Limitations.None"/>
+	<tag id="Wireless.Limitations.Other" name="Wireless.Limitations.Other"/>
+	<tag id="Wireless.Limitations.Security" name="Wireless.Limitations.Security"/>
+	<tag id="Wireless.Standards.Cellular" name="Wireless.Standards.Cellular"/>
+	<tag id="Wireless.Standards.None" name="Wireless.Standards.None"/>
+	<tag id="Wireless.Standards.Other" name="Wireless.Standards.Other"/>
+	<tag id="Wireless.Standards.WI-FI" name="Wireless.Standards.WI-FI"/>
+</tags>

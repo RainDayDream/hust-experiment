@@ -1,0 +1,14 @@
+/* XPM */
+static char * gRealFiber_HeadSide_vert_xpm[] = {
+"26 5 6 1",
+" 	c None",
+".	c #60300F",
+"+	c #E0820E",
+"@	c #F7990D",
+"#	c #5F300E",
+"$	c #5E2F0E",
+"     .+@@                 ",
+"     #+@@                 ",
+"     $+@@                 ",
+"     .+@@                 ",
+"     .+@@                 "};

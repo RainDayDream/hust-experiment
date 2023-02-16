@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>Packet Tracer Translation Process</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="styleNormal.css">
+	</head>
+	<body>
+<p class="MainHeading1"> Packet Tracer Translation Process</p>
+<hr>
+<P>Packet Tracer supports semi-automated translation to all Unicode-supported languages. The first part of this guide explains the translation process for the main application. The second part explains the process for translating the help files. A short FAQ guide is provided at the end of each part to answer questions regarding the processes.</P>
+  <p class="MainHeading2">&nbsp;</p>
+  <p class="MainHeading2">Overview</p>
+  <p>The translation process involves the translation of three separate parts of the program, each one with a small dependency on the translation of the Main Application. The most important translation is the main application as described in Part 1. This will translate the interface of the program. The help file screenshots depend on the translation of the main application in order to display the graphics in the translated language. The save files reference the language files to use upon opening the program so that the program will display in the native language of the save file if available.
+  <p>To standardize the language files, the naming convention for language filenames should follow ISO 639-2. Packet Tracer uses the Alpha-3 code for representation of names of languages. A list of language names to code is defined here: <a href="ISO-639-2_values_8bits-utf-8.csv">ISO-639-2_values_8bits-utf-8.csv</a>. An example of an appropriate name is: &quot;English_eng&quot;.
+  <p class="MainHeading2">&nbsp;</p>
+  <p class="MainHeading2">Translation Best Practices</p>
+  <p class="myList"><strong>Please consider the following best practices when translating:</strong></p>
+  <ul>
+  <li>Agree on terminology that will be used BEFORE starting translation</li>
+  <li>Ensure terminology is consistent throughout the GUI</li>
+  <li>Have a subject matter expert, other than the translator, review the translation when it is complete</li>
+  <li>Allow for text expansion, words may need to be translated differently to accommodate limited space</li>
+  <li>Formatting should be the same as English version</li>
+  <li>Where possible, try to utilize a tool that enables the use of translation memory.</li>
+  </ul>
+  <p class="MainHeading2">&nbsp;</p>
+  <p class="MainHeading2">Part 1: Translating the Main Application</p>
+  <p class="myList"><strong>Required Tools</strong></p>
+  <p class="myList">&nbsp;</p>
+  <ul>
+  <li>Cisco Packet Tracer</li>
+  <li>Qt Linguist</li>
+  <li>File to be translated (*.ts file)</li>
+  </ul>
+<p class="myList"><strong>Setup:</strong>
+<div align="left" class="myList">
+  <p>You can translate to another language or change/continue translations on a previously translated language file. If you are translating to a new language, copy "template.ts" to "&lt;new language name&gt;.ts". Be sure that the &lt;new language name&gt; follows the ISO 639-2 standard defined in the overview section above. </p>
+  <div align="left">
+    <p class="myList"><strong>Instructions:</strong></div>
+</div>
+<ol>
+  <li>Open Qt Linguist.</li>
+  <li>Go to <strong>File</strong>--><strong>Open</strong> and choose the "&lt;language name&gt;.ts" file to translate.</li>
+  <li>Select an unfinished context on the left navigation bar.</li>
+  <li>Enter the text in the <strong>Translation</strong> text field and mark <strong>finish</strong> by pressing <strong>Ctrl</strong> + <strong>Enter</strong>. (See additional important notes below.)</li>
+  <li>Release the language file [<strong>File</strong>--><strong>Release As</strong>&#8230;], from fromat type menue select <strong>All files (*)</strong> and save it as "&lt;language name&gt;.ptl" in the "\languages" folder. Remember to save this project (the .ts file) by [<strong>File</strong>--><strong>Save As</strong>&#8230;] as well as releasing it. The help files will reference this project file.</li>
+  <li>Open Packet Tracer. In the <strong>Options</strong>--><strong>Preferences</strong>, <strong>Interface</strong> tab, select the recently translated language and <strong>restart</strong> Packet Tracer.</li>
+  <li>Packet Tracer is now translated.</li>
+</ol>
+
+<p class="myList"><strong>Some Important Notes:</strong>
+<ol>
+	<li>Variables: %1, %2, %3, %n, and [[SOME_VAR_NAME]]. Do NOT translate those variable names. However, moving the variables as makes sense is fine.</li>
+  <li>Accelerators: The character "&" defines an accelerator key. An example of an accelerator is &File, pressing Alt-F on the keyboard is equivalent to clicking on the file menu. When you are translating to another language, an accelerator key can be placed on any character, but be sure to not use the same character twice.</li>
+	<li>Rich text: HTML tags may be used to manipulate the text shown on screen. Rich text is useful for certain language fonts that are too small or too large.</li>
+</ol>
+
+<p class="myList"><strong>FAQ:</strong>
+<p><strong>Q1.</strong> Where do I find the "template.ts" file?<br>
+<strong>A1. </strong>It is located in the "languages" folder of the  installation path for the application. Example: "C:\Program Files\Packet Tracer 5.2.1\languages"</p>
+<p><strong>Q2. </strong>Do I need to translate the whole file before I can see the results?<br>
+<strong>A2.</strong> To see the results at any point in the installation, just release the file and place it in the languages folder. Then select the language in the Preferences window of Packet Tracer.</p>
+<p>
+<strong>Q3. </strong>I have some network files (.pkt) and some activity files (.pka) that need to be translated. How do I go about translating those?<br>
+<strong>A3.</strong> To translate the content in the saved files (e.g., device names, information boxes, or activity instructions), you must open those files and edit them in Packet Tracer.
+</p>
+
+	<p class="MainHeading2">&nbsp;</p>
+    <p class="MainHeading2">Part 2: Translating the Help Files</p>
+    <p class="myList"><strong>Required Tools</strong></p>
+    <p class="myList">&nbsp;</p>
+    <ul>
+    <li>Fully translated Cisco Packet Tracer </li>
+    <li>A text editor (for example, Notepad++); however, it is recommended that you use an HTML editor (for example, Adobe Dreamweaver)</li>
+    <li>GIMP to take and edit screenshots.</li>
+    <li>Adobe Captivate for translating tutorials</li>
+    </ul>
+<p class="myList"><strong>Translating HTML Text Content:</strong></p>
+    <p>Working in the duplicate folder (e.g., "\help\japanese_jpn"), open each .htm file in a text editor or HTML editor (recommended). Translate the text content in each file and save when finished.</p>
+    <p>Note that the HTML source code uses the style sheet definitions found in the "styleMenu.css" and "styleNormal.css" files.</p>
+
+<p class="myList"><strong>Recapturing Screenshots:</strong>
+	<ol>
+        <li>Start Cisco Packet Tracer.</li>
+        <li>If Packet Tracer is not already using the desired language, go to Options->Preferences and change to the desired language. Also disable screen reader support if not already done so. Restart Packet Tracer.</li>
+        <li>Click on the desired window to capture (e.g., the Activity Wizard Answer Network page).</li>
+        <li>Hold down the <strong>Alt</strong> key on the keyboard and press <strong>Print Screen</strong> on the keyboard. </li>
+        <li>Open an image manipulator program and create a new blank document.</li>
+	    <li>Go to <strong>Edit</strong> > <strong>Paste</strong> to paste the screen capture into the new blank document.</li>
+	    <li>Add any additional edits to the screenshot.</li>
+	    <li>Go to <strong>File</strong> &gt; <strong>Save As</strong> and browse to the images directory (e.g., "\help\japanese_jpn\images\").</li>
+	    <li>Save the  image using the same name as the original screenshot and in the JPEG format (e.g., "activityWizard_answerNetwork_1.jpg").</li>
+	</ol>
+    <p class="MainHeading2">&nbsp;</p>
+<p class="MainHeading2">Part 3a: Translating the Tutorials</p>
+<p class="myList"><strong>Required Tools</strong></p>
+<p class="myList">&nbsp;</p>
+<ul>
+	<li>Cisco Packet Tracer</li>
+	<li>Adobe Captivate 2 or greater</li>
+</ul>
+
+<p class="myList"><strong>Setup</strong>
+<p>Important: Make sure screen reader support is disabled while capturing the tutorials.
+<p>In the "\help\<em>language</em>" folder, replace all of the tutorials in the tutorials folder with the newly captured localized tutorials. More information about using Adobe Captivate can be found in the help files for Captivate.</p>
+<p class="myList"><strong>Translation Process</strong>
+	<ol>
+        <li>Start Cisco Packet Tracer.</li>
+        <li>If Packet Tracer is not already using the desired language, go to Options->Preferences and change to the desired language. Also disable screen reader support if not already done so. Restart Packet Tracer.</li>
+        <li>Start a new Project in Captivate and capture using the Demonstration mode.</li>
+        <li>Select the Packet Tracer window to be captured.</li>
+        <li>Click the record button. You may follow the default installed English tutorials step by step or create your own if desired. It is advisable to have another computer running the original tutorials if you wish to follow the originals.</li>
+		<li>After the tutorial is done, press the <strong>End</strong> key or whichever key was set to end the capture.</li>
+		<li>Save the project. Publish the project to the "help\<em>language</em>\tutorials\" folder using the same name as the original file.</li>
+	</ol>
+<p>The tutorial should now be translated. Repeat the process for the remaining tutorials.</p>
+<p><span class="MainHeading2">Part 3b: Translating the Tutorials (Captions Only)</span></p>
+<p class="myList"><strong>Required Tools</strong></p>
+<p class="myList">&nbsp;</p>
+<ul>
+  <li>Cisco Packet Tracer</li>
+  <li>Adobe Captivate 2 or greater </li>
+  <li>A good word document editor, such as Microsoft Word.</li>
+</ul>
+<p class="myList"><strong>Setup</strong>
+<p>Obtain the tutorial source from the Academy Connection forums. </p>
+<p class="myList"><strong>Translating Captions</strong>
+<ol>
+  <li>Open Adobe Captivate.</li>
+  <li>Go to <strong>File</strong>--><strong>Open</strong> and choose the "
+      <tutorial title>
+    .cp" file in the duplicate folder (i.e. "\help\japanese_jpn\tutorials") to translate.</li>
+  <li>Once "&lt;tutorial title&gt;.cp" file has been loaded, go to <strong>File</strong>--><strong>Import/Export</strong> and choose <strong>Export movie captions</strong>.</li>
+  <li>Save the captions (you may be asked to overwrite the file, if so, accept).</li>
+  <li>Leave Captivate and the "&lt;tutorial title&gt;.cp" file open.</li>
+  <li>Open Microsoft Word or an equivalent word document editor.</li>
+  <li>Go to <strong>File</strong>--><strong>Open</strong> and open the "&lt;tutorial title&gt;.doc" file that was exported in step 3.</li>
+  <li>Under the <strong>Original Text Caption Data</strong> and <strong>Updated Text Caption Data</strong>, translate the text content under those categories (both of them should have the same text).</li>
+  <li>Once finished, save the word document and follow the instructions from the Compiling the Tutorial section below to implement the translated captions.</li>
+</ol>
+<p class="myList"><strong>Compiling the Tutorial</strong>
+<ol>
+  <li>With Captivate and "&lt;tutorial title&gt;.cp" still open from step 5 of the <strong>Translating Captions </strong>section above<strong>, </strong>go to <strong>File</strong>--><strong>Import/Export </strong>and choose <strong>Import movie captions</strong>.</li>
+  <li>Open the translated word document containing the caption from the <strong>Translating Captions</strong> section above.</li>
+  <li>Once the translated captions has been imported successfully, go to <strong>File</strong>--><strong>Publish</strong>.</li>
+  <li>Browse to the duplicate folder (i.e. "\help\japanese_jpn\tutorials") if the directory is not pointed there.</li>
+  <li>Click on <strong>Publish</strong> (you may be asked to overwrite the tutorial, if so, accept).</li>
+</ol>
+<p>The tutorial should now be translated. Repeat the process for the remaining tutorials.</p>
+</body>
+</html>

@@ -1,0 +1,2 @@
+D:\study\coding practice\computer network\实验二\StopWait\Debug\StopWait.exe
+D:\study\hust_experiment\computer_network\experiment2\StopWait\Debug\StopWait.exe

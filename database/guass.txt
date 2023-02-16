@@ -1,0 +1,7 @@
+gsql -h 127.0.0.1 -d postgres -U gaussdb -W'Passwd123@123'
+
+
+gs_dump -U gaussdb -W'Passwd123@123' -h 127.0.0.1 -p 5432 -f residents_bak.sql
+
+
+gs_restore -U gaussdb -W'Passwd123@123'  residents_bak.sql -p 5432 -d residents
