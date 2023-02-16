@@ -1,0 +1,319 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue May 10 20:04:30 2022
+# Process ID: 6652
+# Current directory: D:/study/coding practice/verilog/shiyan2/shiyan2.runs/synth_1
+# Command line: vivado.exe -log _7Seg_Driver_Choice.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source _7Seg_Driver_Choice.tcl
+# Log file: D:/study/coding practice/verilog/shiyan2/shiyan2.runs/synth_1/_7Seg_Driver_Choice.vds
+# Journal file: D:/study/coding practice/verilog/shiyan2/shiyan2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source _7Seg_Driver_Choice.tcl -notrace
+Command: synth_design -top _7Seg_Driver_Choice -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13588 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 355.883 ; gain = 98.645
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module '_7Seg_Driver_Choice' [D:/study/coding practice/verilog/shiyan2/shiyan2.srcs/sources_1/new/lab3.v:23]
+INFO: [Synth 8-6157] synthesizing module 'selector' [D:/study/coding practice/verilog/shiyan2/shiyan2.srcs/sources_1/new/selector.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'selector' (1#1) [D:/study/coding practice/verilog/shiyan2/shiyan2.srcs/sources_1/new/selector.v:23]
+INFO: [Synth 8-6157] synthesizing module '_7seg_driver_decode' [D:/study/coding practice/verilog/shiyan2/shiyan2.srcs/sources_1/new/decoder.v:23]
+WARNING: [Synth 8-3848] Net AN in module/entity _7seg_driver_decode does not have driver. [D:/study/coding practice/verilog/shiyan2/shiyan2.srcs/sources_1/new/decoder.v:26]
+INFO: [Synth 8-6155] done synthesizing module '_7seg_driver_decode' (2#1) [D:/study/coding practice/verilog/shiyan2/shiyan2.srcs/sources_1/new/decoder.v:23]
+INFO: [Synth 8-6155] done synthesizing module '_7Seg_Driver_Choice' (3#1) [D:/study/coding practice/verilog/shiyan2/shiyan2.srcs/sources_1/new/lab3.v:23]
+WARNING: [Synth 8-3331] design _7seg_driver_decode has unconnected port AN[7]
+WARNING: [Synth 8-3331] design _7seg_driver_decode has unconnected port AN[6]
+WARNING: [Synth 8-3331] design _7seg_driver_decode has unconnected port AN[5]
+WARNING: [Synth 8-3331] design _7seg_driver_decode has unconnected port AN[4]
+WARNING: [Synth 8-3331] design _7seg_driver_decode has unconnected port AN[3]
+WARNING: [Synth 8-3331] design _7seg_driver_decode has unconnected port AN[2]
+WARNING: [Synth 8-3331] design _7seg_driver_decode has unconnected port AN[1]
+WARNING: [Synth 8-3331] design _7seg_driver_decode has unconnected port AN[0]
+WARNING: [Synth 8-3331] design selector has unconnected port SW[12]
+WARNING: [Synth 8-3331] design selector has unconnected port SW[11]
+WARNING: [Synth 8-3331] design selector has unconnected port SW[10]
+WARNING: [Synth 8-3331] design selector has unconnected port SW[9]
+WARNING: [Synth 8-3331] design selector has unconnected port SW[8]
+WARNING: [Synth 8-3331] design selector has unconnected port SW[7]
+WARNING: [Synth 8-3331] design selector has unconnected port SW[6]
+WARNING: [Synth 8-3331] design selector has unconnected port SW[5]
+WARNING: [Synth 8-3331] design selector has unconnected port SW[4]
+WARNING: [Synth 8-3331] design selector has unconnected port SW[3]
+WARNING: [Synth 8-3331] design selector has unconnected port SW[2]
+WARNING: [Synth 8-3331] design selector has unconnected port SW[1]
+WARNING: [Synth 8-3331] design selector has unconnected port SW[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 411.164 ; gain = 153.926
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 411.164 ; gain = 153.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 411.164 ; gain = 153.926
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:8]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports CLK100MHZ]'. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:8]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'addr[0]'. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'addr[1]'. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'addr[2]'. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[0]'. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[1]'. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[2]'. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[3]'. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/study/coding practice/verilog/实验指导书 - 2021/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/_7Seg_Driver_Choice_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/_7Seg_Driver_Choice_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 673.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 673.727 ; gain = 416.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 673.727 ; gain = 416.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 673.727 ; gain = 416.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 673.727 ; gain = 416.488
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module selector 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 673.727 ; gain = 416.488
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 748.086 ; gain = 490.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 748.086 ; gain = 490.848
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 748.086 ; gain = 490.848
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 749.211 ; gain = 491.973
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 749.211 ; gain = 491.973
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 749.211 ; gain = 491.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 749.211 ; gain = 491.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 749.211 ; gain = 491.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 749.211 ; gain = 491.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT3 |     8|
+|2     |LUT4 |     7|
+|3     |IBUF |    16|
+|4     |OBUF |    32|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+--------------------+------+
+|      |Instance |Module              |Cells |
++------+---------+--------------------+------+
+|1     |top      |                    |    63|
+|2     |  decode |_7seg_driver_decode |     7|
+|3     |  select |selector            |     6|
++------+---------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 749.211 ; gain = 491.973
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 749.242 ; gain = 229.441
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 749.242 ; gain = 492.004
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+18 Infos, 31 Warnings, 9 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 768.418 ; gain = 524.359
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'D:/study/coding practice/verilog/shiyan2/shiyan2.runs/synth_1/_7Seg_Driver_Choice.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file _7Seg_Driver_Choice_utilization_synth.rpt -pb _7Seg_Driver_Choice_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 768.418 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue May 10 20:04:56 2022...

@@ -1,0 +1,7 @@
+Running: xsim.dir/_7Seg_Driver_Choice_behav/xsimk.exe -simmode gui -wdb _7Seg_Driver_Choice_behav.wdb -simrunnum 0 -socket 57322
+Design successfully loaded
+Design Loading Memory Usage: 5792 KB (Peak: 5792 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 6344 KB (Peak: 6344 KB)
+Simulation CPU Usage: 62 ms

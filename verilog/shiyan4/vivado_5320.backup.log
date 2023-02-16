@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Sep 12 21:24:43 2022
+# Process ID: 5320
+# Current directory: D:/study/coding practice/verilog/shiyan4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19356 D:\study\coding practice\verilog\shiyan4\shiyan4.xpr
+# Log file: D:/study/coding practice/verilog/shiyan4/vivado.log
+# Journal file: D:/study/coding practice/verilog/shiyan4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/study/coding practice/verilog/shiyan4/shiyan4.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/users/vivado2018/Vivado/2018.2/data/ip'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 13 00:11:05 2022...

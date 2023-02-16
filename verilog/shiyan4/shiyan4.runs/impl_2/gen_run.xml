@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_2" LaunchPart="xc7a100tcsg324-1" LaunchTime="1656340337">
+  <File Type="BITSTR-BMM" Name="auto_cal_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="auto_cal_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="auto_cal_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="auto_cal_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="auto_cal.tcl"/>
+  <File Type="OPT-TIMING" Name="auto_cal_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="auto_cal_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="auto_cal_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="auto_cal_reports.tcl"/>
+  <File Type="OPT-DRC" Name="auto_cal_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="auto_cal.hwdef"/>
+  <File Type="PWROPT-DCP" Name="auto_cal_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="auto_cal_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="auto_cal_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="auto_cal_placed.dcp"/>
+  <File Type="PLACE-IO" Name="auto_cal_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="auto_cal_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="auto_cal_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="auto_cal_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="auto_cal_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="auto_cal_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="auto_cal_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="auto_cal.bgn"/>
+  <File Type="PLACE-TIMING" Name="auto_cal_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="auto_cal_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="auto_cal.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="auto_cal_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="auto_cal_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="auto_cal_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="auto_cal.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="auto_cal_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="auto_cal_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="auto_cal_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="auto_cal_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="auto_cal_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="auto_cal_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="auto_cal.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="auto_cal_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="auto_cal.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="auto_cal_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="auto_cal_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="auto_cal.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="auto_cal_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="auto_cal_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="auto_cal_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="auto_cal_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="auto_cal_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="auto_cal_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="auto_cal_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="auto_cal_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="auto_cal_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="auto_cal_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="auto_cal_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="auto_cal_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="auto_cal_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="auto_cal_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="auto_cal_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="auto_cal_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="auto_cal_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="auto_cal_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="auto_cal_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="auto_cal.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="auto_cal_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="auto_cal.rbt"/>
+  <File Type="BITSTR-NKY" Name="auto_cal.nky"/>
+  <File Type="BG-DRC" Name="auto_cal.drc"/>
+  <File Type="RDI-RDI" Name="auto_cal.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/comparator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/full_adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux2_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/register.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/storage.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/data_path.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/data.mem">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FSM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/divider.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/auto_cal.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/auto_compute.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pattern.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="auto_cal"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../实验指导书 - 2021/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

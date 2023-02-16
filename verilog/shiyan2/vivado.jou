@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue May 10 20:02:46 2022
+# Process ID: 9880
+# Current directory: D:/study/coding practice/verilog/shiyan2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12492 D:\study\coding practice\verilog\shiyan2\shiyan2.xpr
+# Log file: D:/study/coding practice/verilog/shiyan2/vivado.log
+# Journal file: D:/study/coding practice/verilog/shiyan2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/study/coding practice/verilog/shiyan2/shiyan2.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

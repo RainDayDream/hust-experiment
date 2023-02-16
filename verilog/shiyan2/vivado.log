@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue May 10 20:02:46 2022
+# Process ID: 9880
+# Current directory: D:/study/coding practice/verilog/shiyan2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12492 D:\study\coding practice\verilog\shiyan2\shiyan2.xpr
+# Log file: D:/study/coding practice/verilog/shiyan2/vivado.log
+# Journal file: D:/study/coding practice/verilog/shiyan2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/study/coding practice/verilog/shiyan2/shiyan2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/users/vivado2018/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 862.461 ; gain = 127.242
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue May 10 20:04:28 2022] Launched synth_1...
+Run output will be captured here: D:/study/coding practice/verilog/shiyan2/shiyan2.runs/synth_1/runme.log
+[Tue May 10 20:04:28 2022] Launched impl_1...
+Run output will be captured here: D:/study/coding practice/verilog/shiyan2/shiyan2.runs/impl_1/runme.log

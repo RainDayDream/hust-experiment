@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/coding practice/verilog/shiyan2/shiyan2.srcs/sources_1/new/lab2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _7seg_driver_decode
+WARNING: [VRFC 10-143] SEG was previously declared with a range [D:/study/coding practice/verilog/shiyan2/shiyan2.srcs/sources_1/new/lab2.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/coding practice/verilog/shiyan2/shiyan2.srcs/sources_1/new/selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selector
+WARNING: [VRFC 10-2379] empty port in module declaration [D:/study/coding practice/verilog/shiyan2/shiyan2.srcs/sources_1/new/selector.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/coding practice/verilog/shiyan2/shiyan2.srcs/sources_1/new/lab3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _7Seg_Driver_Choice

@@ -1,0 +1,63 @@
+`timescale 1ns / 1ps
+/////////////////////////////////////////////////////////////////
+// Module Name: fsm_tb
+/////////////////////////////////////////////////////////////////
+
+module fsm_tb(
+    );
+    wire LD_SUM,LD_NEXT,SUM_SEL,NEXT_SEL,A_SEL,done;
+    reg clk,rst,start,next_zero;
+    FSM dut(start,next_zero,clk, rst,LD_SUM,LD_NEXT,SUM_SEL,NEXT_SEL,A_SEL,done);
+
+   // Clock Procedure
+   always begin
+      clk <= 0;
+      #10;
+      clk <= 1;
+      #10;
+   end   // Note: Procedure repeats
+
+    initial  begin
+        rst <=1;
+        start <= 0;
+        next_zero <=0;
+        @(posedge clk);
+        #5 if (LD_SUM != 0 || LD_NEXT != 0 || SUM_SEL!= 0 || NEXT_SEL!= 0 || A_SEL!= 0 || done!= 0 )             
+            $display("%t: START failed", $time);
+            else 
+            $display("%t: START successed", $time);
+        rst <= 0;
+        @(posedge clk);
+        start <= 1;
+        @(posedge clk);        
+        #5  if (LD_SUM != 1 || LD_NEXT != 0 || SUM_SEL!= 1 || NEXT_SEL!= 1 || A_SEL!= 1 || done!= 0 )             
+            $display("%t: COMPUTE_SUM failed", $time);            
+        else 
+            $display("%t: COMPUTE_SUM successed", $time);
+        @(posedge clk);
+        #5 if (LD_SUM != 0 || LD_NEXT != 1 || SUM_SEL!= 1 || NEXT_SEL!= 1 || A_SEL!= 0 || done!= 0 )             
+            $display("%t: GET_NEXT failed", $time);            
+        else 
+            $display("%t: GET_NEXT successed", $time);            
+        @(posedge clk);
+        #5 if (LD_SUM != 1 || LD_NEXT != 0 || SUM_SEL!= 1 || NEXT_SEL!= 1 || A_SEL!= 1 || done!= 0 )             
+            $display("%t: COMPUTE_SUM failed", $time);            
+        else 
+            $display("%t: COMPUTE_SUM successed", $time);                      
+        @(posedge clk);
+        next_zero <=1;
+        @(posedge clk);             
+        #5 if (LD_SUM != 0 || LD_NEXT != 0 || SUM_SEL!= 0 || NEXT_SEL!= 0 || A_SEL!= 0 || done!= 1 )             
+            $display("%t: DONE failed", $time);            
+        else 
+            $display("%t: DONE successed", $time);
+        @(posedge clk);
+        start <= 0;
+        @(posedge clk);              
+        #5 if (LD_SUM != 0 || LD_NEXT != 0 || SUM_SEL!= 0 || NEXT_SEL!= 0 || A_SEL!= 0 || done!= 0 )             
+            $display("%t: START failed", $time);            
+        else 
+            $display("%t: START successed", $time);               
+    end
+      
+endmodule

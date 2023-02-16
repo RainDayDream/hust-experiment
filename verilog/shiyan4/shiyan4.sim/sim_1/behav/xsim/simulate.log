@@ -1,0 +1,8 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+               15000: START successed
+               55000: COMPUTE_SUM successed
+               75000: GET_NEXT successed
+               95000: COMPUTE_SUM successed
+              135000: DONE successed
+              175000: START successed
