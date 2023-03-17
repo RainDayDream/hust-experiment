@@ -1,0 +1,9 @@
+﻿  head.c
+  main.c
+D:\study\coding practice\huibian\mine\shiyan3.2.2\shiyan3.2.2\main.c(17,20): warning C4013: “input_compare”未定义；假设外部返回 int
+D:\study\coding practice\huibian\mine\shiyan3.2.2\shiyan3.2.2\main.c(32,42): warning C4133: “函数”: 从“SAMPLES *”到“int *”的类型不兼容
+D:\study\coding practice\huibian\mine\shiyan3.2.2\shiyan3.2.2\main.c(39,42): warning C4133: “函数”: 从“SAMPLES *”到“int *”的类型不兼容
+D:\study\coding practice\huibian\mine\shiyan3.2.2\shiyan3.2.2\main.c(52,13): warning C4013: “mid_output”未定义；假设外部返回 int
+D:\study\coding practice\huibian\mine\shiyan3.2.2\shiyan3.2.2\main.c(53,20): warning C4013: “assign_again”未定义；假设外部返回 int
+  正在生成代码...
+  shiyan3.2.2.vcxproj -> D:\study\coding practice\huibian\mine\shiyan3.2.2\Debug\shiyan3.2.2.exe
