@@ -11,3 +11,4 @@
 - operate_system:操作系统实验，含2020级课设，即lab1-3所有基础试验与挑战试验均已完成，具体见：https://github.com/RainDayDream/hust-oslab-riscv_pke/tree/master
 - software：软件工程大作业
 - verilog：verilog课的几个实验的代码
+- cachelab-handout:计算机系统结构实验代码+报告（Linux下运行检测）
