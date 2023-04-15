@@ -1,0 +1,64 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/users/vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 661051d15c72479ebba7bc8a84619824 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot detail_tb_behav xil_defaultlib.detail_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divider(N=5000000)
+Compiling module xil_defaultlib.Priority_Encoder(NrOfInputBits=4...
+Compiling module xil_defaultlib.NOT_GATE
+Compiling module xil_defaultlib.Bit_Extender_12_32_SIGN
+Compiling module xil_defaultlib.OR_GATE(BubblesMask=0)
+Compiling module xil_defaultlib.Bit_Extender_20_32_SIGN
+Compiling module xil_defaultlib.AND_GATE(BubblesMask=0)
+Compiling module xil_defaultlib.Adder(ExtendedBits=33,NrOfBits=3...
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=5)
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=32)
+Compiling module xil_defaultlib.AND_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP(NrOfBits=32)
+Compiling module xil_defaultlib.Comparator(NrOfBits=32)
+Compiling module xil_defaultlib.Multiplexer_bus_4(NrOfBits=32)
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=12)
+Compiling module xil_defaultlib.RAM_DATAPLACE
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=2)
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=0)
+Compiling module xil_defaultlib.ROM_IRPLACE
+Compiling module xil_defaultlib.divider(N=50000)
+Compiling module xil_defaultlib.Counter
+Compiling module xil_defaultlib.decoder3_8
+Compiling module xil_defaultlib.display_sel
+Compiling module xil_defaultlib.sevenseg_dec
+Compiling module xil_defaultlib.FPGADigit
+Compiling module xil_defaultlib.LogisimCounter(mode=0,max_val=65...
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP_PC(NrOfBits=3...
+Compiling module xil_defaultlib.AND_GATE
+Compiling module xil_defaultlib.AND_GATE_10_INPUTS(BubblesMask=0...
+Compiling module xil_defaultlib.AND_GATE_8_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_9_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_8_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_11_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_15_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.controlcompute
+Compiling module xil_defaultlib.AND_GATE_6_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_7_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_5_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_20_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.controlsignal
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.Subtractor(ExtendedBits=33,NrOfB...
+Compiling module xil_defaultlib.NOR_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.OR_GATE_BUS(BubblesMask=0,NrOfBi...
+Compiling module xil_defaultlib.Multiplexer_16
+Compiling module xil_defaultlib.XOR_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.Multiplexer_bus_16(NrOfBits=32)
+Compiling module xil_defaultlib.Comparator(TwosComplement=0,NrOf...
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=3)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.regifile
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.detail_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot detail_tb_behav
