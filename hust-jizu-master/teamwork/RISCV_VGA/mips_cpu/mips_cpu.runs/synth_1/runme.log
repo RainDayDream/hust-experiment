@@ -1,0 +1,951 @@
+
+*** Running vivado
+    with args -log _myPlayer.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source _myPlayer.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source _myPlayer.tcl -notrace
+Command: synth_design -top _myPlayer -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1168 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 359.266 ; gain = 102.027
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module '_myPlayer' [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myTOP.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RISCV' [D:/study/verilog/debug/RISCV/verilog/circuit/RISCV.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE' (1#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE' [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE' (2#1) [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE_BUS' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_BUS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE_BUS' (3#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_BUS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Adder.v:9]
+	Parameter ExtendedBits bound to: 33 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (4#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Adder.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer_bus_2' [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v:9]
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer_bus_2' (5#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v:9]
+INFO: [Synth 8-6157] synthesizing module 'REGISTER_FLIP_FLOP_PC' [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP_PC.v:9]
+	Parameter ActiveLevel bound to: 1 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element s_state_reg_neg_edge_reg was removed.  [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP_PC.v:58]
+INFO: [Synth 8-5837] Detected dual asynchronous set and preset for register s_state_reg_reg in module REGISTER_FLIP_FLOP_PC. This is not a recommended register style for Xilinx devices  [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP_PC.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'REGISTER_FLIP_FLOP_PC' (6#1) [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP_PC.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Priority_Encoder' [D:/study/verilog/debug/RISCV/verilog/plexers/Priority_Encoder.v:9]
+	Parameter NrOfInputBits bound to: 8 - type: integer 
+	Parameter NrOfSelectBits bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Priority_Encoder' (7#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Priority_Encoder.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer_bus_4' [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_4.v:9]
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer_bus_4' (8#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_4.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Bit_Extender_12_32_SIGN' [D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_12_32_SIGN.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Bit_Extender_12_32_SIGN' (9#1) [D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_12_32_SIGN.v:9]
+INFO: [Synth 8-6157] synthesizing module 'NOT_GATE' [D:/study/verilog/debug/RISCV/verilog/gates/NOT_GATE.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'NOT_GATE' (10#1) [D:/study/verilog/debug/RISCV/verilog/gates/NOT_GATE.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer_bus_8' [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_8.v:9]
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer_bus_8' (11#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_8.v:9]
+INFO: [Synth 8-6157] synthesizing module 'REGISTER_FLIP_FLOP' [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:9]
+	Parameter ActiveLevel bound to: 1 - type: integer 
+	Parameter NrOfBits bound to: 3 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element s_state_reg_neg_edge_reg was removed.  [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:58]
+INFO: [Synth 8-5837] Detected dual asynchronous set and preset for register s_state_reg_reg in module REGISTER_FLIP_FLOP. This is not a recommended register style for Xilinx devices  [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'REGISTER_FLIP_FLOP' (12#1) [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Shifter_32_bit' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v:9]
+	Parameter ShifterMode bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Shifter_32_bit' (13#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Bit_Extender_20_32' [D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Bit_Extender_20_32' (14#1) [D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ROM_IRPLACE' [D:/study/verilog/debug/RISCV/verilog/memory/ROM_IRPLACE.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ROM_IRPLACE' (15#1) [D:/study/verilog/debug/RISCV/verilog/memory/ROM_IRPLACE.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Demultiplexer_8' [D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_8.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Demultiplexer_8' (16#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_8.v:9]
+INFO: [Synth 8-6157] synthesizing module 'LogisimCounter' [D:/study/verilog/debug/RISCV/verilog/memory/LogisimCounter.v:9]
+	Parameter mode bound to: 0 - type: integer 
+	Parameter ClkEdge bound to: 1 - type: integer 
+	Parameter max_val bound to: 65535 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element s_counter_value_neg_edge_reg was removed.  [D:/study/verilog/debug/RISCV/verilog/memory/LogisimCounter.v:122]
+INFO: [Synth 8-5837] Detected dual asynchronous set and preset for register s_counter_value_reg in module LogisimCounter. This is not a recommended register style for Xilinx devices  [D:/study/verilog/debug/RISCV/verilog/memory/LogisimCounter.v:115]
+INFO: [Synth 8-6155] done synthesizing module 'LogisimCounter' (17#1) [D:/study/verilog/debug/RISCV/verilog/memory/LogisimCounter.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Comparator' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+	Parameter TwosComplement bound to: 1 - type: integer 
+	Parameter NrOfBits bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Comparator' (18#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+INFO: [Synth 8-6157] synthesizing module 'REGISTER_FLIP_FLOP__parameterized0' [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:9]
+	Parameter ActiveLevel bound to: 1 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element s_state_reg_neg_edge_reg was removed.  [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:58]
+INFO: [Synth 8-5837] Detected dual asynchronous set and preset for register s_state_reg_reg in module REGISTER_FLIP_FLOP__parameterized0. This is not a recommended register style for Xilinx devices  [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'REGISTER_FLIP_FLOP__parameterized0' (18#1) [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Shifter_32_bit__parameterized0' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v:9]
+	Parameter ShifterMode bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Shifter_32_bit__parameterized0' (18#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer_bus_2__parameterized0' [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v:9]
+	Parameter NrOfBits bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer_bus_2__parameterized0' (18#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Comparator__parameterized0' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+	Parameter TwosComplement bound to: 0 - type: integer 
+	Parameter NrOfBits bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Comparator__parameterized0' (18#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer_bus_2__parameterized1' [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v:9]
+	Parameter NrOfBits bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer_bus_2__parameterized1' (18#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Priority_Encoder__parameterized0' [D:/study/verilog/debug/RISCV/verilog/plexers/Priority_Encoder.v:9]
+	Parameter NrOfInputBits bound to: 4 - type: integer 
+	Parameter NrOfSelectBits bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Priority_Encoder__parameterized0' (18#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Priority_Encoder.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Comparator__parameterized1' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+	Parameter TwosComplement bound to: 1 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Comparator__parameterized1' (18#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Bit_Extender_20_32_SIGN' [D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32_SIGN.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Bit_Extender_20_32_SIGN' (19#1) [D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32_SIGN.v:9]
+INFO: [Synth 8-6157] synthesizing module 'RAM_DATAPLACE' [D:/study/verilog/debug/RISCV/verilog/memory/RAM_DATAPLACE.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'RAM_DATAPLACE' (20#1) [D:/study/verilog/debug/RISCV/verilog/memory/RAM_DATAPLACE.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/study/verilog/debug/RISCV/verilog/circuit/ALU.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer_bus_16' [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_16.v:9]
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer_bus_16' (21#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_16.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Comparator__parameterized2' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+	Parameter TwosComplement bound to: 0 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Comparator__parameterized2' (21#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+INFO: [Synth 8-6157] synthesizing module 'XOR_GATE_BUS' [D:/study/verilog/debug/RISCV/verilog/gates/XOR_GATE_BUS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'XOR_GATE_BUS' (22#1) [D:/study/verilog/debug/RISCV/verilog/gates/XOR_GATE_BUS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer_16' [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_16.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer_16' (23#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_16.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Shifter_32_bit__parameterized1' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v:9]
+	Parameter ShifterMode bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Shifter_32_bit__parameterized1' (23#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Subtractor' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Subtractor.v:9]
+	Parameter ExtendedBits bound to: 33 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Subtractor' (24#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Subtractor.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE_BUS' [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_BUS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE_BUS' (25#1) [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_BUS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'NOR_GATE_BUS' [D:/study/verilog/debug/RISCV/verilog/gates/NOR_GATE_BUS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'NOR_GATE_BUS' (26#1) [D:/study/verilog/debug/RISCV/verilog/gates/NOR_GATE_BUS.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (27#1) [D:/study/verilog/debug/RISCV/verilog/circuit/ALU.v:9]
+INFO: [Synth 8-6157] synthesizing module 'IRIECTRL' [D:/study/verilog/debug/RISCV/verilog/circuit/IRIECTRL.v:9]
+INFO: [Synth 8-6157] synthesizing module 'D_Flip_Flop' [D:/study/verilog/debug/RISCV/verilog/memory/D_Flip_Flop.v:2]
+	Parameter ActiveLevel bound to: 1 - type: integer 
+INFO: [Synth 8-5837] Detected dual asynchronous set and preset for register s_next_state_reg in module D_Flip_Flop. This is not a recommended register style for Xilinx devices  [D:/study/verilog/debug/RISCV/verilog/memory/D_Flip_Flop.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'D_Flip_Flop' (28#1) [D:/study/verilog/debug/RISCV/verilog/memory/D_Flip_Flop.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'IRIECTRL' (29#1) [D:/study/verilog/debug/RISCV/verilog/circuit/IRIECTRL.v:9]
+INFO: [Synth 8-6157] synthesizing module 'INTRsignalGEN' [D:/study/verilog/debug/RISCV/verilog/circuit/INTRsignalGEN.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'INTRsignalGEN' (30#1) [D:/study/verilog/debug/RISCV/verilog/circuit/INTRsignalGEN.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MIPS_Regifile' [D:/study/verilog/debug/RISCV/verilog/circuit/MIPS_Regifile.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MIPS_Regifile' (31#1) [D:/study/verilog/debug/RISCV/verilog/circuit/MIPS_Regifile.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MAZEMAP' [D:/study/verilog/debug/RISCV/verilog/circuit/MAZEMAP.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Demultiplexer_32' [D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_32.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Demultiplexer_32' (32#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_32.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MAZEMAP' (33#1) [D:/study/verilog/debug/RISCV/verilog/circuit/MAZEMAP.v:9]
+INFO: [Synth 8-6157] synthesizing module 'DISPLAY' [D:/study/verilog/debug/RISCV/verilog/circuit/DISPLAY.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'DISPLAY' (34#1) [D:/study/verilog/debug/RISCV/verilog/circuit/DISPLAY.v:9]
+INFO: [Synth 8-6157] synthesizing module 'CONTROLLER' [D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLLER.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE__parameterized0' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE.v:9]
+	Parameter BubblesMask bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE__parameterized0' (34#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE.v:9]
+INFO: [Synth 8-6157] synthesizing module 'CONTROLSIGNAL' [D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLSIGNAL.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE_7_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_7_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE_7_INPUTS' (35#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_7_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE_10_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_10_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE_10_INPUTS' (36#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_10_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE_20_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_20_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE_20_INPUTS' (37#1) [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_20_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE_8_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_8_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE_8_INPUTS' (38#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_8_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE_6_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_6_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE_6_INPUTS' (39#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_6_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE_8_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_8_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE_8_INPUTS' (40#1) [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_8_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE_5_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_5_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE_5_INPUTS' (41#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_5_INPUTS.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'CONTROLSIGNAL' (42#1) [D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLSIGNAL.v:9]
+INFO: [Synth 8-6157] synthesizing module 'COMPUTESIGNAL' [D:/study/verilog/debug/RISCV/verilog/circuit/COMPUTESIGNAL.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE_9_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_9_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE_9_INPUTS' (43#1) [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_9_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE_11_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_11_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE_11_INPUTS' (44#1) [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_11_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE_15_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_15_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE_15_INPUTS' (45#1) [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_15_INPUTS.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'COMPUTESIGNAL' (46#1) [D:/study/verilog/debug/RISCV/verilog/circuit/COMPUTESIGNAL.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'CONTROLLER' (47#1) [D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLLER.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'RISCV' (48#1) [D:/study/verilog/debug/RISCV/verilog/circuit/RISCV.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myvga' [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v:29]
+WARNING: [Synth 8-3848] Net r0 in module/entity myvga does not have driver. [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v:36]
+WARNING: [Synth 8-3848] Net r1 in module/entity myvga does not have driver. [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v:36]
+WARNING: [Synth 8-3848] Net r2 in module/entity myvga does not have driver. [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'myvga' (49#1) [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v:29]
+INFO: [Synth 8-6155] done synthesizing module '_myPlayer' (50#1) [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myTOP.v:23]
+WARNING: [Synth 8-3331] design myvga has unconnected port r0
+WARNING: [Synth 8-3331] design myvga has unconnected port r1
+WARNING: [Synth 8-3331] design myvga has unconnected port r2
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1023]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1022]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1021]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1020]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1019]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1018]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1017]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1016]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1015]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1014]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1013]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1012]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1011]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1010]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1009]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1008]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1007]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1006]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1005]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1004]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1003]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1002]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1001]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1000]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[999]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[998]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[997]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[996]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[995]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[994]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[993]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[992]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[991]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[990]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[989]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[988]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[987]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[986]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[985]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[984]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[983]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[982]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[981]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[980]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[979]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[978]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[977]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[976]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[975]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[974]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[973]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[972]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[971]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[970]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[969]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[968]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[967]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[966]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[965]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[964]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[963]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[962]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[961]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[960]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[959]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[958]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[957]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[956]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[955]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[954]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[953]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[952]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[951]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[950]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[949]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[948]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[947]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[946]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[945]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[944]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[943]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[942]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[941]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[940]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[939]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[938]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[937]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[936]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[935]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[934]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[933]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[932]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[931]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[930]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[929]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[928]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[927]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 588.902 ; gain = 331.664
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 588.902 ; gain = 331.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 588.902 ; gain = 331.664
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc]
+WARNING: [Vivado 12-507] No nets matched 'rst_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'level1_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'level2_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTND_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTNU_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTNL_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTNR_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTNC_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNC'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/_myPlayer_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/_myPlayer_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 818.539 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 818.539 ; gain = 561.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 818.539 ; gain = 561.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 818.539 ; gain = 561.301
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "s_address0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_address0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "s_in_is_zero" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/study/verilog/debug/RISCV/verilog/memory/LogisimCounter.v:97]
+INFO: [Synth 8-5546] ROM "s_carry0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_carry0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "s_address0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_in_is_zero" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "y_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hsync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vsync" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 818.539 ; gain = 561.301
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/GATE_14' (NOT_GATE) to 'aRiscvcpu/GATE_18'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_7'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_10'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_12'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_28'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_34'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_41'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_45'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_48'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_53'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_58'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_59'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_65'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_74'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_79'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_90'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_93'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_95'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_100'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_127'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_141'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_144'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_149'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_154'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_155'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_170'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_174'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_181'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_194'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_201'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_205'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_206'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_214'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_234'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_246'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_253'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_1' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_255'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_5'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_9'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_21'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_25'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_31'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_32'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_42'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_43'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_77'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_98'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_103'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_106'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_109'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_116'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_129'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_131'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_137'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_140'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_158'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_177'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_179'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_215'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_220'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_232'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_240'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_241'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_249'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_2' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_256'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_16'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_27'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_35'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_63'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_68'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_72'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_75'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_92'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_143'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_150'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_175'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_186'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_190'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_193'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_197'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_198'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_248'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_252'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_3' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_257'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_14'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_39'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_44'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_60'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_89'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_115'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_133'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_135'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_159'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_163'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_164'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_167'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_171'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_173'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_217'
+INFO: [Synth 8-223] decloning instance 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_4' (NOT_GATE) to 'aRiscvcpu/CONTROLLER_1/CONTROLSIGNAL_1/GATE_218'
+INFO: [Common 17-14] Message 'Synth 8-223' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3538] Detected potentially large (wide) register green_reg [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v:148]
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 4     
+	   4 Input     33 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 32    
++---Registers : 
+	             1025 Bit    Registers := 1     
+	               32 Bit    Registers := 66    
+	               16 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 1039  
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 86    
+	   4 Input     32 Bit        Muxes := 2     
+	 429 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 6     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 17    
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3538] Detected potentially large (wide) register green_reg [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v:148]
+Hierarchical RTL Component report 
+Module Adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+Module Multiplexer_bus_2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module REGISTER_FLIP_FLOP_PC 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Priority_Encoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module Multiplexer_bus_4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+Module Multiplexer_bus_8 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module REGISTER_FLIP_FLOP 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module ROM_IRPLACE 
+Detailed RTL Component Info : 
++---Muxes : 
+	 429 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+Module LogisimCounter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module REGISTER_FLIP_FLOP__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Multiplexer_bus_2__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 2     
+Module Multiplexer_bus_2__parameterized1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+Module Priority_Encoder__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module Multiplexer_bus_16 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module XOR_GATE_BUS 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 32    
+Module Subtractor 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     33 Bit       Adders := 1     
+Module D_Flip_Flop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module MIPS_Regifile 
+Detailed RTL Component Info : 
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module myvga 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	             1025 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1026  
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "s_in_is_zero" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_carry0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hsync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "y_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vsync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\vga/green_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[15]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[14]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[13]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[12]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[11]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[10]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[9]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[8]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[7]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[6]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[5]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[4]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[3]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[2]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[1]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (s_counter_value_reg[0]) is unused and will be removed from module LogisimCounter.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[31]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[30]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[29]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[28]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[27]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[26]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[25]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[24]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[23]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[22]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[21]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[20]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[19]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[18]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[17]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[16]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[15]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[14]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[13]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[12]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[11]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[10]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[9]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[8]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[7]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[6]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[5]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[4]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[3]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[2]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[1]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_1/s_state_reg_reg[0]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[31]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[30]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[29]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[28]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[27]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[26]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[25]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[24]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[23]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[22]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[21]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[20]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[19]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[18]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[17]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[16]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[15]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[14]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[13]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[12]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[11]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[10]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[9]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[8]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[7]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[6]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[5]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[4]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[3]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[2]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[1]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_2/s_state_reg_reg[0]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[31]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[30]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[29]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[28]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[27]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[26]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[25]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[24]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[23]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[22]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[21]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[20]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[19]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[18]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[17]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[16]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[15]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[14]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[13]) is unused and will be removed from module MAZEMAP.
+WARNING: [Synth 8-3332] Sequential element (REGISTER_FILE_3/s_state_reg_reg[12]) is unused and will be removed from module MAZEMAP.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 823.156 ; gain = 565.918
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 823.156 ; gain = 565.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 823.156 ; gain = 565.918
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 823.156 ; gain = 565.918
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 823.156 ; gain = 565.918
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 823.156 ; gain = 565.918
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 823.156 ; gain = 565.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 823.156 ; gain = 565.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 823.156 ; gain = 565.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 823.156 ; gain = 565.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     2|
+|2     |LUT1  |     2|
+|3     |LUT2  |    40|
+|4     |LUT3  |    32|
+|5     |LUT4  |    32|
+|6     |LUT5  |    22|
+|7     |LUT6  |   309|
+|8     |FDCE  |    23|
+|9     |FDRE  |  1029|
+|10    |IBUF  |     2|
+|11    |OBUF  |    11|
+|12    |OBUFT |     3|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  1507|
+|2     |  vga    |myvga  |  1489|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 823.156 ; gain = 565.918
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4203 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 823.156 ; gain = 336.281
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 823.156 ; gain = 565.918
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist '_myPlayer' is not ideal for floorplanning, since the cellview 'myvga' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+261 Infos, 217 Warnings, 9 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 823.156 ; gain = 578.977
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.runs/synth_1/_myPlayer.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file _myPlayer_utilization_synth.rpt -pb _myPlayer_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 823.156 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 23 20:33:12 2022...

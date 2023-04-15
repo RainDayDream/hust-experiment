@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Oct 23 20:23:04 2022
+# Process ID: 12656
+# Current directory: D:/study/verilog/debug/RISCV/mips_cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8684 D:\study\verilog\debug\RISCV\mips_cpu\mips_cpu.xpr
+# Log file: D:/study/verilog/debug/RISCV/mips_cpu/vivado.log
+# Journal file: D:/study/verilog/debug/RISCV/mips_cpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source myplayer_tb.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reorder_files -fileset constrs_1 -after D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc
+open_run impl_1
+close_sim
+launch_simulation
+source myplayer_tb.tcl
+close_sim
+launch_simulation
+source myplayer_tb.tcl
+close_sim
+launch_simulation
+source myplayer_tb.tcl
+close_sim
+launch_simulation
+source myplayer_tb.tcl
+add_bp {D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v} 34
+remove_bps -file {D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v} -line 34
+add_bp {D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v} 35
+remove_bps -file {D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v} -line 35
+add_bp {D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v} 36
+remove_bps -file {D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v} -line 36
+close_sim
+launch_simulation
+source myplayer_tb.tcl
+close_sim
+launch_simulation
+source myplayer_tb.tcl
+close_sim
+launch_simulation
+source myplayer_tb.tcl
+set_property simulator_language Verilog [current_project]
+close_sim
+launch_simulation
+source myplayer_tb.tcl
+close_sim
+launch_simulation
+source myplayer_tb.tcl
+close_sim

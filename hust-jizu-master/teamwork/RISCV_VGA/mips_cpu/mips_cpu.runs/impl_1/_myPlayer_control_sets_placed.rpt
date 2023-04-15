@@ -1,0 +1,104 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Oct 23 20:33:57 2022
+| Host         : DESKTOP-NOQDMH7 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file _myPlayer_control_sets_placed.rpt
+| Design       : _myPlayer
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    38 |
+| Unused register locations in slices containing registers |    18 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            2 |
+|      8 |            2 |
+|    16+ |           34 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              16 |            3 |
+| No           | No                    | Yes                    |              22 |            8 |
+| No           | Yes                   | No                     |            2048 |          224 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              24 |            7 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+----------------------+----------------------+------------------+----------------+
+|  Clock Signal  |     Enable Signal    |   Set/Reset Signal   | Slice Load Count | Bel Load Count |
++----------------+----------------------+----------------------+------------------+----------------+
+|  clk_0         | vga/vsync_i_1_n_0    | rst_IBUF             |                1 |              2 |
+|  clk_0         | vga/hsync_i_1_n_0    | rst_IBUF             |                1 |              2 |
+| ~clk_IBUF_BUFG |                      |                      |                1 |              8 |
+|  clk_0         |                      |                      |                2 |              8 |
+|  clk_0         | vga/y_cnt[9]_i_1_n_0 | rst_IBUF             |                5 |             20 |
+|  clk_0         |                      | rst_IBUF             |                8 |             22 |
+|  clk_0         |                      | vga/dis[0]_i_1_n_0   |                5 |             64 |
+|  clk_0         |                      | vga/dis[192]_i_1_n_0 |                6 |             64 |
+|  clk_0         |                      | vga/dis[224]_i_1_n_0 |                6 |             64 |
+|  clk_0         |                      | vga/dis[320]_i_1_n_0 |                9 |             64 |
+|  clk_0         |                      | vga/dis[352]_i_1_n_0 |                7 |             64 |
+|  clk_0         |                      | vga/dis[416]_i_1_n_0 |                7 |             64 |
+|  clk_0         |                      | vga/dis[384]_i_1_n_0 |                6 |             64 |
+|  clk_0         |                      | vga/dis[256]_i_1_n_0 |                6 |             64 |
+|  clk_0         |                      | vga/dis[288]_i_1_n_0 |                8 |             64 |
+|  clk_0         |                      | vga/dis[160]_i_1_n_0 |                7 |             64 |
+|  clk_0         |                      | vga/dis[32]_i_1_n_0  |                6 |             64 |
+|  clk_0         |                      | vga/dis[128]_i_1_n_0 |                6 |             64 |
+|  clk_0         |                      | vga/dis[576]_i_1_n_0 |                8 |             64 |
+|  clk_0         |                      | vga/dis[512]_i_1_n_0 |                7 |             64 |
+|  clk_0         |                      | vga/dis[736]_i_1_n_0 |                8 |             64 |
+|  clk_0         |                      | vga/dis[928]_i_1_n_0 |                6 |             64 |
+|  clk_0         |                      | vga/dis[960]_i_1_n_0 |                7 |             64 |
+|  clk_0         |                      | vga/dis[768]_i_1_n_0 |                7 |             64 |
+|  clk_0         |                      | vga/dis[96]_i_1_n_0  |                7 |             64 |
+|  clk_0         |                      | vga/dis[608]_i_1_n_0 |                8 |             64 |
+|  clk_0         |                      | vga/dis[992]_i_1_n_0 |                7 |             64 |
+|  clk_0         |                      | vga/dis[64]_i_1_n_0  |                8 |             64 |
+|  clk_0         |                      | vga/dis[800]_i_1_n_0 |                7 |             64 |
+|  clk_0         |                      | vga/dis[672]_i_1_n_0 |                7 |             64 |
+|  clk_0         |                      | vga/dis[704]_i_1_n_0 |                7 |             64 |
+|  clk_0         |                      | vga/dis[832]_i_1_n_0 |                8 |             64 |
+|  clk_0         |                      | vga/dis[896]_i_1_n_0 |                7 |             64 |
+|  clk_0         |                      | vga/dis[640]_i_1_n_0 |                9 |             64 |
+|  clk_0         |                      | vga/dis[864]_i_1_n_0 |                5 |             64 |
+|  clk_0         |                      | vga/dis[480]_i_1_n_0 |                8 |             64 |
+|  clk_0         |                      | vga/dis[448]_i_1_n_0 |                6 |             64 |
+|  clk_0         |                      | vga/dis[544]_i_1_n_0 |                8 |             64 |
++----------------+----------------------+----------------------+------------------+----------------+
+
+

@@ -1,0 +1,1345 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Oct 23 20:23:04 2022
+# Process ID: 12656
+# Current directory: D:/study/verilog/debug/RISCV/mips_cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8684 D:\study\verilog\debug\RISCV\mips_cpu\mips_cpu.xpr
+# Log file: D:/study/verilog/debug/RISCV/mips_cpu/vivado.log
+# Journal file: D:/study/verilog/debug/RISCV/mips_cpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.xpr
+INFO: [Project 1-313] Project file moved from 'D:/idk/success/RISCV/mips_cpu' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/users/vivado2018/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 869.641 ; gain = 131.527
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'myplayer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj myplayer_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_10_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_10_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_5_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_5_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_6_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_6_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_7_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_7_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_8_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_8_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_12_32_SIGN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_12_32_SIGN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_20_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32_SIGN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_20_32_SIGN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/COMPUTESIGNAL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module COMPUTESIGNAL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLLER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONTROLLER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLSIGNAL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONTROLSIGNAL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/DISPLAY.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DISPLAY
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/D_Flip_Flop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_Flip_Flop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demultiplexer_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demultiplexer_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/INTRsignalGEN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module INTRsignalGEN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/IRIECTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IRIECTRL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/LogisimCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LogisimCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/MAZEMAP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAZEMAP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/MIPS_Regifile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS_Regifile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/NOR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/NOT_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOT_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_11_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_11_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_15_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_15_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_20_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_20_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_8_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_8_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_9_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_9_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Priority_Encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Priority_Encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/RAM_DATAPLACE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_DATAPLACE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REGISTER_FLIP_FLOP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP_PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REGISTER_FLIP_FLOP_PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/RISCV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/ROM_IRPLACE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_IRPLACE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter_32_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/XOR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myTOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _myPlayer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myvga
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myplayer_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 901.664 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/users/vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto cebb0671d9d747f18489edcf45299cba --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot myplayer_tb_behav xil_defaultlib.myplayer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.AND_GATE(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.Adder(ExtendedBits=33,NrOfBits=3...
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=32)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP_PC(NrOfBits=3...
+Compiling module xil_defaultlib.Priority_Encoder(NrOfInputBits=8...
+Compiling module xil_defaultlib.Multiplexer_bus_4(NrOfBits=32)
+Compiling module xil_defaultlib.Bit_Extender_12_32_SIGN
+Compiling module xil_defaultlib.NOT_GATE
+Compiling module xil_defaultlib.Multiplexer_bus_8(NrOfBits=32)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP(NrOfBits=3)
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=0)
+Compiling module xil_defaultlib.Bit_Extender_20_32
+Compiling module xil_defaultlib.ROM_IRPLACE
+Compiling module xil_defaultlib.Demultiplexer_8
+Compiling module xil_defaultlib.LogisimCounter(mode=0,max_val=65...
+Compiling module xil_defaultlib.Comparator(NrOfBits=5)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP(NrOfBits=32)
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=2)
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=5)
+Compiling module xil_defaultlib.Comparator(TwosComplement=0,NrOf...
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=12)
+Compiling module xil_defaultlib.Priority_Encoder(NrOfInputBits=4...
+Compiling module xil_defaultlib.Comparator(NrOfBits=32)
+Compiling module xil_defaultlib.Bit_Extender_20_32_SIGN
+Compiling module xil_defaultlib.RAM_DATAPLACE
+Compiling module xil_defaultlib.Multiplexer_bus_16(NrOfBits=32)
+Compiling module xil_defaultlib.Comparator(TwosComplement=0,NrOf...
+Compiling module xil_defaultlib.XOR_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.Multiplexer_16
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=3)
+Compiling module xil_defaultlib.Subtractor(ExtendedBits=33,NrOfB...
+Compiling module xil_defaultlib.OR_GATE_BUS(BubblesMask=0,NrOfBi...
+Compiling module xil_defaultlib.NOR_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.D_Flip_Flop
+Compiling module xil_defaultlib.IRIECTRL
+Compiling module xil_defaultlib.INTRsignalGEN
+Compiling module xil_defaultlib.MIPS_Regifile
+Compiling module xil_defaultlib.Demultiplexer_32
+Compiling module xil_defaultlib.MAZEMAP
+Compiling module xil_defaultlib.DISPLAY
+Compiling module xil_defaultlib.AND_GATE
+Compiling module xil_defaultlib.AND_GATE_7_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_10_INPUTS(BubblesMask=0...
+Compiling module xil_defaultlib.OR_GATE_20_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_8_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_6_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_8_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_5_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.CONTROLSIGNAL
+Compiling module xil_defaultlib.OR_GATE_9_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_11_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_15_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.COMPUTESIGNAL
+Compiling module xil_defaultlib.CONTROLLER
+Compiling module xil_defaultlib.RISCV
+Compiling module xil_defaultlib.myvga
+Compiling module xil_defaultlib._myPlayer
+Compiling module xil_defaultlib.myplayer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot myplayer_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim/xsim.dir/myplayer_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Oct 23 20:31:28 2022...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 901.664 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "myplayer_tb_behav -key {Behavioral:sim_1:Functional:myplayer_tb} -tclbatch {myplayer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source myplayer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'myplayer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:14 . Memory (MB): peak = 926.609 ; gain = 24.945
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Sun Oct 23 20:32:24 2022] Launched synth_1...
+Run output will be captured here: D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Sun Oct 23 20:33:19 2022] Launched impl_1...
+Run output will be captured here: D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Oct 23 20:36:36 2022] Launched impl_1...
+Run output will be captured here: D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.runs/impl_1/runme.log
+reorder_files -fileset constrs_1 -after D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+WARNING: [Netlist 29-101] Netlist '_myPlayer' is not ideal for floorplanning, since the cellview 'myvga' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.118 . Memory (MB): peak = 1792.754 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.119 . Memory (MB): peak = 1792.754 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:21 . Memory (MB): peak = 1868.922 ; gain = 931.145
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'myplayer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj myplayer_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/users/vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto cebb0671d9d747f18489edcf45299cba --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot myplayer_tb_behav xil_defaultlib.myplayer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "myplayer_tb_behav -key {Behavioral:sim_1:Functional:myplayer_tb} -tclbatch {myplayer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source myplayer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'myplayer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'myplayer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj myplayer_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_10_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_10_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_5_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_5_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_6_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_6_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_7_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_7_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_8_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_8_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_12_32_SIGN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_12_32_SIGN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_20_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32_SIGN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_20_32_SIGN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/COMPUTESIGNAL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module COMPUTESIGNAL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLLER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONTROLLER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLSIGNAL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONTROLSIGNAL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/DISPLAY.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DISPLAY
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/D_Flip_Flop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_Flip_Flop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demultiplexer_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demultiplexer_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/INTRsignalGEN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module INTRsignalGEN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/IRIECTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IRIECTRL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/LogisimCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LogisimCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/MAZEMAP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAZEMAP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/MIPS_Regifile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS_Regifile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/NOR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/NOT_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOT_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_11_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_11_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_15_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_15_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_20_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_20_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_8_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_8_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_9_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_9_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Priority_Encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Priority_Encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/RAM_DATAPLACE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_DATAPLACE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REGISTER_FLIP_FLOP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP_PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REGISTER_FLIP_FLOP_PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/RISCV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/ROM_IRPLACE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_IRPLACE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter_32_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/XOR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myTOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _myPlayer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myvga
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myplayer_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/users/vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto cebb0671d9d747f18489edcf45299cba --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot myplayer_tb_behav xil_defaultlib.myplayer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.AND_GATE(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.Adder(ExtendedBits=33,NrOfBits=3...
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=32)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP_PC(NrOfBits=3...
+Compiling module xil_defaultlib.Priority_Encoder(NrOfInputBits=8...
+Compiling module xil_defaultlib.Multiplexer_bus_4(NrOfBits=32)
+Compiling module xil_defaultlib.Bit_Extender_12_32_SIGN
+Compiling module xil_defaultlib.NOT_GATE
+Compiling module xil_defaultlib.Multiplexer_bus_8(NrOfBits=32)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP(NrOfBits=3)
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=0)
+Compiling module xil_defaultlib.Bit_Extender_20_32
+Compiling module xil_defaultlib.ROM_IRPLACE
+Compiling module xil_defaultlib.Demultiplexer_8
+Compiling module xil_defaultlib.LogisimCounter(mode=0,max_val=65...
+Compiling module xil_defaultlib.Comparator(NrOfBits=5)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP(NrOfBits=32)
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=2)
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=5)
+Compiling module xil_defaultlib.Comparator(TwosComplement=0,NrOf...
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=12)
+Compiling module xil_defaultlib.Priority_Encoder(NrOfInputBits=4...
+Compiling module xil_defaultlib.Comparator(NrOfBits=32)
+Compiling module xil_defaultlib.Bit_Extender_20_32_SIGN
+Compiling module xil_defaultlib.RAM_DATAPLACE
+Compiling module xil_defaultlib.Multiplexer_bus_16(NrOfBits=32)
+Compiling module xil_defaultlib.Comparator(TwosComplement=0,NrOf...
+Compiling module xil_defaultlib.XOR_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.Multiplexer_16
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=3)
+Compiling module xil_defaultlib.Subtractor(ExtendedBits=33,NrOfB...
+Compiling module xil_defaultlib.OR_GATE_BUS(BubblesMask=0,NrOfBi...
+Compiling module xil_defaultlib.NOR_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.D_Flip_Flop
+Compiling module xil_defaultlib.IRIECTRL
+Compiling module xil_defaultlib.INTRsignalGEN
+Compiling module xil_defaultlib.MIPS_Regifile
+Compiling module xil_defaultlib.Demultiplexer_32
+Compiling module xil_defaultlib.MAZEMAP
+Compiling module xil_defaultlib.DISPLAY
+Compiling module xil_defaultlib.AND_GATE
+Compiling module xil_defaultlib.AND_GATE_7_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_10_INPUTS(BubblesMask=0...
+Compiling module xil_defaultlib.OR_GATE_20_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_8_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_6_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_8_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_5_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.CONTROLSIGNAL
+Compiling module xil_defaultlib.OR_GATE_9_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_11_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_15_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.COMPUTESIGNAL
+Compiling module xil_defaultlib.CONTROLLER
+Compiling module xil_defaultlib.RISCV
+Compiling module xil_defaultlib.myvga
+Compiling module xil_defaultlib._myPlayer
+Compiling module xil_defaultlib.myplayer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot myplayer_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "myplayer_tb_behav -key {Behavioral:sim_1:Functional:myplayer_tb} -tclbatch {myplayer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source myplayer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'myplayer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1904.324 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'myplayer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj myplayer_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/users/vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto cebb0671d9d747f18489edcf45299cba --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot myplayer_tb_behav xil_defaultlib.myplayer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "myplayer_tb_behav -key {Behavioral:sim_1:Functional:myplayer_tb} -tclbatch {myplayer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source myplayer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'myplayer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'myplayer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj myplayer_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_10_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_10_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_5_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_5_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_6_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_6_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_7_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_7_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_8_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_8_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_12_32_SIGN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_12_32_SIGN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_20_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32_SIGN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_20_32_SIGN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/COMPUTESIGNAL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module COMPUTESIGNAL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLLER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONTROLLER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLSIGNAL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONTROLSIGNAL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/DISPLAY.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DISPLAY
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/D_Flip_Flop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_Flip_Flop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demultiplexer_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demultiplexer_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/INTRsignalGEN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module INTRsignalGEN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/IRIECTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IRIECTRL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/LogisimCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LogisimCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/MAZEMAP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAZEMAP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/MIPS_Regifile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS_Regifile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/NOR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/NOT_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOT_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_11_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_11_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_15_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_15_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_20_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_20_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_8_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_8_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_9_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_9_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Priority_Encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Priority_Encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/RAM_DATAPLACE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_DATAPLACE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REGISTER_FLIP_FLOP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP_PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REGISTER_FLIP_FLOP_PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/RISCV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/ROM_IRPLACE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_IRPLACE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter_32_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/XOR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myTOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _myPlayer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myvga
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myplayer_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/users/vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto cebb0671d9d747f18489edcf45299cba --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot myplayer_tb_behav xil_defaultlib.myplayer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.AND_GATE(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.Adder(ExtendedBits=33,NrOfBits=3...
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=32)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP_PC(NrOfBits=3...
+Compiling module xil_defaultlib.Priority_Encoder(NrOfInputBits=8...
+Compiling module xil_defaultlib.Multiplexer_bus_4(NrOfBits=32)
+Compiling module xil_defaultlib.Bit_Extender_12_32_SIGN
+Compiling module xil_defaultlib.NOT_GATE
+Compiling module xil_defaultlib.Multiplexer_bus_8(NrOfBits=32)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP(NrOfBits=3)
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=0)
+Compiling module xil_defaultlib.Bit_Extender_20_32
+Compiling module xil_defaultlib.ROM_IRPLACE
+Compiling module xil_defaultlib.Demultiplexer_8
+Compiling module xil_defaultlib.LogisimCounter(mode=0,max_val=65...
+Compiling module xil_defaultlib.Comparator(NrOfBits=5)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP(NrOfBits=32)
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=2)
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=5)
+Compiling module xil_defaultlib.Comparator(TwosComplement=0,NrOf...
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=12)
+Compiling module xil_defaultlib.Priority_Encoder(NrOfInputBits=4...
+Compiling module xil_defaultlib.Comparator(NrOfBits=32)
+Compiling module xil_defaultlib.Bit_Extender_20_32_SIGN
+Compiling module xil_defaultlib.RAM_DATAPLACE
+Compiling module xil_defaultlib.Multiplexer_bus_16(NrOfBits=32)
+Compiling module xil_defaultlib.Comparator(TwosComplement=0,NrOf...
+Compiling module xil_defaultlib.XOR_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.Multiplexer_16
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=3)
+Compiling module xil_defaultlib.Subtractor(ExtendedBits=33,NrOfB...
+Compiling module xil_defaultlib.OR_GATE_BUS(BubblesMask=0,NrOfBi...
+Compiling module xil_defaultlib.NOR_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.D_Flip_Flop
+Compiling module xil_defaultlib.IRIECTRL
+Compiling module xil_defaultlib.INTRsignalGEN
+Compiling module xil_defaultlib.MIPS_Regifile
+Compiling module xil_defaultlib.Demultiplexer_32
+Compiling module xil_defaultlib.MAZEMAP
+Compiling module xil_defaultlib.DISPLAY
+Compiling module xil_defaultlib.AND_GATE
+Compiling module xil_defaultlib.AND_GATE_7_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_10_INPUTS(BubblesMask=0...
+Compiling module xil_defaultlib.OR_GATE_20_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_8_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_6_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_8_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_5_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.CONTROLSIGNAL
+Compiling module xil_defaultlib.OR_GATE_9_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_11_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_15_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.COMPUTESIGNAL
+Compiling module xil_defaultlib.CONTROLLER
+Compiling module xil_defaultlib.RISCV
+Compiling module xil_defaultlib.myvga
+Compiling module xil_defaultlib._myPlayer
+Compiling module xil_defaultlib.myplayer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot myplayer_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "myplayer_tb_behav -key {Behavioral:sim_1:Functional:myplayer_tb} -tclbatch {myplayer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source myplayer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'myplayer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1904.324 ; gain = 0.000
+add_bp {D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v} 34
+remove_bps -file {D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v} -line 34
+add_bp {D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v} 35
+remove_bps -file {D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v} -line 35
+add_bp {D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v} 36
+remove_bps -file {D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v} -line 36
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'myplayer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj myplayer_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_10_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_10_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_5_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_5_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_6_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_6_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_7_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_7_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_8_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_8_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_12_32_SIGN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_12_32_SIGN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_20_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32_SIGN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_20_32_SIGN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/COMPUTESIGNAL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module COMPUTESIGNAL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLLER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONTROLLER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLSIGNAL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONTROLSIGNAL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/DISPLAY.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DISPLAY
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/D_Flip_Flop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_Flip_Flop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demultiplexer_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demultiplexer_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/INTRsignalGEN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module INTRsignalGEN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/IRIECTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IRIECTRL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/LogisimCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LogisimCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/MAZEMAP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAZEMAP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/MIPS_Regifile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS_Regifile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/NOR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/NOT_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOT_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_11_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_11_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_15_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_15_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_20_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_20_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_8_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_8_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_9_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_9_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Priority_Encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Priority_Encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/RAM_DATAPLACE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_DATAPLACE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REGISTER_FLIP_FLOP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP_PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REGISTER_FLIP_FLOP_PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/RISCV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/ROM_IRPLACE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_IRPLACE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter_32_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/XOR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myTOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _myPlayer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myvga
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myplayer_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/users/vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto cebb0671d9d747f18489edcf45299cba --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot myplayer_tb_behav xil_defaultlib.myplayer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.AND_GATE(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.Adder(ExtendedBits=33,NrOfBits=3...
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=32)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP_PC(NrOfBits=3...
+Compiling module xil_defaultlib.Priority_Encoder(NrOfInputBits=8...
+Compiling module xil_defaultlib.Multiplexer_bus_4(NrOfBits=32)
+Compiling module xil_defaultlib.Bit_Extender_12_32_SIGN
+Compiling module xil_defaultlib.NOT_GATE
+Compiling module xil_defaultlib.Multiplexer_bus_8(NrOfBits=32)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP(NrOfBits=3)
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=0)
+Compiling module xil_defaultlib.Bit_Extender_20_32
+Compiling module xil_defaultlib.ROM_IRPLACE
+Compiling module xil_defaultlib.Demultiplexer_8
+Compiling module xil_defaultlib.LogisimCounter(mode=0,max_val=65...
+Compiling module xil_defaultlib.Comparator(NrOfBits=5)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP(NrOfBits=32)
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=2)
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=5)
+Compiling module xil_defaultlib.Comparator(TwosComplement=0,NrOf...
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=12)
+Compiling module xil_defaultlib.Priority_Encoder(NrOfInputBits=4...
+Compiling module xil_defaultlib.Comparator(NrOfBits=32)
+Compiling module xil_defaultlib.Bit_Extender_20_32_SIGN
+Compiling module xil_defaultlib.RAM_DATAPLACE
+Compiling module xil_defaultlib.Multiplexer_bus_16(NrOfBits=32)
+Compiling module xil_defaultlib.Comparator(TwosComplement=0,NrOf...
+Compiling module xil_defaultlib.XOR_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.Multiplexer_16
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=3)
+Compiling module xil_defaultlib.Subtractor(ExtendedBits=33,NrOfB...
+Compiling module xil_defaultlib.OR_GATE_BUS(BubblesMask=0,NrOfBi...
+Compiling module xil_defaultlib.NOR_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.D_Flip_Flop
+Compiling module xil_defaultlib.IRIECTRL
+Compiling module xil_defaultlib.INTRsignalGEN
+Compiling module xil_defaultlib.MIPS_Regifile
+Compiling module xil_defaultlib.Demultiplexer_32
+Compiling module xil_defaultlib.MAZEMAP
+Compiling module xil_defaultlib.DISPLAY
+Compiling module xil_defaultlib.AND_GATE
+Compiling module xil_defaultlib.AND_GATE_7_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_10_INPUTS(BubblesMask=0...
+Compiling module xil_defaultlib.OR_GATE_20_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_8_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_6_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_8_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_5_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.CONTROLSIGNAL
+Compiling module xil_defaultlib.OR_GATE_9_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_11_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_15_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.COMPUTESIGNAL
+Compiling module xil_defaultlib.CONTROLLER
+Compiling module xil_defaultlib.RISCV
+Compiling module xil_defaultlib.myvga
+Compiling module xil_defaultlib._myPlayer
+Compiling module xil_defaultlib.myplayer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot myplayer_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "myplayer_tb_behav -key {Behavioral:sim_1:Functional:myplayer_tb} -tclbatch {myplayer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source myplayer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'myplayer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1908.992 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'myplayer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj myplayer_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/users/vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto cebb0671d9d747f18489edcf45299cba --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot myplayer_tb_behav xil_defaultlib.myplayer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "myplayer_tb_behav -key {Behavioral:sim_1:Functional:myplayer_tb} -tclbatch {myplayer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source myplayer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'myplayer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'myplayer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj myplayer_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_10_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_10_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_5_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_5_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_6_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_6_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_7_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_7_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_8_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_8_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_12_32_SIGN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_12_32_SIGN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_20_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32_SIGN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_20_32_SIGN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/COMPUTESIGNAL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module COMPUTESIGNAL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLLER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONTROLLER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLSIGNAL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONTROLSIGNAL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/DISPLAY.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DISPLAY
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/D_Flip_Flop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_Flip_Flop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demultiplexer_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demultiplexer_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/INTRsignalGEN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module INTRsignalGEN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/IRIECTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IRIECTRL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/LogisimCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LogisimCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/MAZEMAP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAZEMAP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/MIPS_Regifile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS_Regifile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_bus_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/NOR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/NOT_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOT_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_11_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_11_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_15_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_15_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_20_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_20_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_8_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_8_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_9_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_9_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/plexers/Priority_Encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Priority_Encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/RAM_DATAPLACE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_DATAPLACE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REGISTER_FLIP_FLOP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP_PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REGISTER_FLIP_FLOP_PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/circuit/RISCV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/memory/ROM_IRPLACE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_IRPLACE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter_32_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/arithmetic/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/verilog/gates/XOR_GATE_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR_GATE_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myTOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _myPlayer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myvga
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myplayer_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/users/vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto cebb0671d9d747f18489edcf45299cba --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot myplayer_tb_behav xil_defaultlib.myplayer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.AND_GATE(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.Adder(ExtendedBits=33,NrOfBits=3...
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=32)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP_PC(NrOfBits=3...
+Compiling module xil_defaultlib.Priority_Encoder(NrOfInputBits=8...
+Compiling module xil_defaultlib.Multiplexer_bus_4(NrOfBits=32)
+Compiling module xil_defaultlib.Bit_Extender_12_32_SIGN
+Compiling module xil_defaultlib.NOT_GATE
+Compiling module xil_defaultlib.Multiplexer_bus_8(NrOfBits=32)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP(NrOfBits=3)
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=0)
+Compiling module xil_defaultlib.Bit_Extender_20_32
+Compiling module xil_defaultlib.ROM_IRPLACE
+Compiling module xil_defaultlib.Demultiplexer_8
+Compiling module xil_defaultlib.LogisimCounter(mode=0,max_val=65...
+Compiling module xil_defaultlib.Comparator(NrOfBits=5)
+Compiling module xil_defaultlib.REGISTER_FLIP_FLOP(NrOfBits=32)
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=2)
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=5)
+Compiling module xil_defaultlib.Comparator(TwosComplement=0,NrOf...
+Compiling module xil_defaultlib.Multiplexer_bus_2(NrOfBits=12)
+Compiling module xil_defaultlib.Priority_Encoder(NrOfInputBits=4...
+Compiling module xil_defaultlib.Comparator(NrOfBits=32)
+Compiling module xil_defaultlib.Bit_Extender_20_32_SIGN
+Compiling module xil_defaultlib.RAM_DATAPLACE
+Compiling module xil_defaultlib.Multiplexer_bus_16(NrOfBits=32)
+Compiling module xil_defaultlib.Comparator(TwosComplement=0,NrOf...
+Compiling module xil_defaultlib.XOR_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.Multiplexer_16
+Compiling module xil_defaultlib.Shifter_32_bit(ShifterMode=3)
+Compiling module xil_defaultlib.Subtractor(ExtendedBits=33,NrOfB...
+Compiling module xil_defaultlib.OR_GATE_BUS(BubblesMask=0,NrOfBi...
+Compiling module xil_defaultlib.NOR_GATE_BUS(BubblesMask=0,NrOfB...
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.D_Flip_Flop
+Compiling module xil_defaultlib.IRIECTRL
+Compiling module xil_defaultlib.INTRsignalGEN
+Compiling module xil_defaultlib.MIPS_Regifile
+Compiling module xil_defaultlib.Demultiplexer_32
+Compiling module xil_defaultlib.MAZEMAP
+Compiling module xil_defaultlib.DISPLAY
+Compiling module xil_defaultlib.AND_GATE
+Compiling module xil_defaultlib.AND_GATE_7_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_10_INPUTS(BubblesMask=0...
+Compiling module xil_defaultlib.OR_GATE_20_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_8_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_6_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_8_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.AND_GATE_5_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.CONTROLSIGNAL
+Compiling module xil_defaultlib.OR_GATE_9_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_11_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.OR_GATE_15_INPUTS(BubblesMask=0)
+Compiling module xil_defaultlib.COMPUTESIGNAL
+Compiling module xil_defaultlib.CONTROLLER
+Compiling module xil_defaultlib.RISCV
+Compiling module xil_defaultlib.myvga
+Compiling module xil_defaultlib._myPlayer
+Compiling module xil_defaultlib.myplayer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot myplayer_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "myplayer_tb_behav -key {Behavioral:sim_1:Functional:myplayer_tb} -tclbatch {myplayer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source myplayer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'myplayer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1908.992 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myTOP.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/CPU_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myTOP.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/myplayer_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sim_1/new/CPU_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property simulator_language Verilog [current_project]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'myplayer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj myplayer_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/users/vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto cebb0671d9d747f18489edcf45299cba --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot myplayer_tb_behav xil_defaultlib.myplayer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "myplayer_tb_behav -key {Behavioral:sim_1:Functional:myplayer_tb} -tclbatch {myplayer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source myplayer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'myplayer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'myplayer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj myplayer_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/users/vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto cebb0671d9d747f18489edcf45299cba --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot myplayer_tb_behav xil_defaultlib.myplayer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "myplayer_tb_behav -key {Behavioral:sim_1:Functional:myplayer_tb} -tclbatch {myplayer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source myplayer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'myplayer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 23 22:26:28 2022...

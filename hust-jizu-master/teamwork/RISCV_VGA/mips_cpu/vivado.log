@@ -1,0 +1,587 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Oct 24 19:06:39 2022
+# Process ID: 14220
+# Current directory: D:/study/verilog/debug/RISCV/mips_cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12724 D:\study\verilog\debug\RISCV\mips_cpu\mips_cpu.xpr
+# Log file: D:/study/verilog/debug/RISCV/mips_cpu/vivado.log
+# Journal file: D:/study/verilog/debug/RISCV/mips_cpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/users/vivado2018/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 892.145 ; gain = 151.965
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist '_myPlayer' is not ideal for floorplanning, since the cellview 'myvga' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc]
+WARNING: [Vivado 12-507] No nets matched 'level1_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'level2_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTND_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTNU_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTNL_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTNR_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTNC_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNC'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:15 . Memory (MB): peak = 1315.586 ; gain = 399.699
+close_design
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: _myPlayer
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'rdi::get_data_dir' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+3 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+INFO: [Common 17-344] 'synth_design' was cancelled
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: _myPlayer
+WARNING: [Synth 8-2490] overwriting previous definition of module AND2 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:14]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND2B1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:26]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND2B1L [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:38]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND2B2 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:51]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND3 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:62]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND3B1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:74]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND3B2 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:86]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND3B3 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:98]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND4 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:110]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND4B1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:123]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND4B2 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:136]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND4B3 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:149]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND4B4 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:162]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND5 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:175]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND5B1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:189]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND5B2 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:203]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND5B3 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:217]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND5B4 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:231]
+WARNING: [Synth 8-2490] overwriting previous definition of module AND5B5 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:245]
+WARNING: [Synth 8-2490] overwriting previous definition of module AUTOBUF [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:259]
+WARNING: [Synth 8-2490] overwriting previous definition of module BIBUF [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:270]
+WARNING: [Synth 8-2490] overwriting previous definition of module BITSLICE_CONTROL [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:280]
+WARNING: [Synth 8-2490] overwriting previous definition of module BSCANE2 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:424]
+WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_SPARTAN3 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:454]
+WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_SPARTAN3A [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:473]
+WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_SPARTAN6 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:494]
+WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_VIRTEX4 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:514]
+WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_VIRTEX5 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:531]
+WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_VIRTEX6 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:548]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUF [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:569]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFCE_LEAF [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:579]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFCE_ROW [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:594]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFG [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:609]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFGCE [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:619]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFGCE_1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:634]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFGCE_DIV [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:645]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFGCTRL [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:663]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFGMUX [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:698]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFGMUX_1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:711]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFGMUX_CTRL [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:724]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFGMUX_VIRTEX4 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:738]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFGP [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:752]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFG_GT [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:762]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFG_GT_SYNC [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:782]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFG_PS [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:798]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFH [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:808]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFHCE [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:818]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFIO [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:833]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFIO2 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:843]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFMR [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:861]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFMRCE [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:871]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFR [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:886]
+WARNING: [Synth 8-2490] overwriting previous definition of module CAPTUREE2 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:902]
+WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_SPARTAN3 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:913]
+WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_SPARTAN3A [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:923]
+WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_VIRTEX4 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:933]
+WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_VIRTEX5 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:943]
+WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_VIRTEX6 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:953]
+WARNING: [Synth 8-2490] overwriting previous definition of module CARRY4 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:963]
+WARNING: [Synth 8-2490] overwriting previous definition of module CARRY8 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:981]
+WARNING: [Synth 8-2490] overwriting previous definition of module CFGLUT5 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:1000]
+WARNING: [Synth 8-2490] overwriting previous definition of module CMAC [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:1030]
+WARNING: [Synth 8-2490] overwriting previous definition of module CMACE4 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:1840]
+WARNING: [Synth 8-2490] overwriting previous definition of module DCIRESET [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:2756]
+WARNING: [Synth 8-2490] overwriting previous definition of module DCM [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:2766]
+WARNING: [Synth 8-2490] overwriting previous definition of module DCM_ADV [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:2812]
+WARNING: [Synth 8-2490] overwriting previous definition of module DCM_BASE [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:2883]
+WARNING: [Synth 8-2490] overwriting previous definition of module DCM_PS [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:2931]
+WARNING: [Synth 8-2490] overwriting previous definition of module DCM_SP [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:2989]
+WARNING: [Synth 8-2490] overwriting previous definition of module DNA_PORT [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3034]
+WARNING: [Synth 8-2490] overwriting previous definition of module DNA_PORTE2 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3048]
+WARNING: [Synth 8-2490] overwriting previous definition of module DPHY_DIFFINBUF [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3065]
+WARNING: [Synth 8-2490] overwriting previous definition of module DSP48 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3087]
+WARNING: [Synth 8-2490] overwriting previous definition of module DSP48A [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3160]
+WARNING: [Synth 8-2490] overwriting previous definition of module DSP48A1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3234]
+WARNING: [Synth 8-2490] overwriting previous definition of module DSP48E [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3313]
+WARNING: [Synth 8-2490] overwriting previous definition of module DSP48E1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3430]
+WARNING: [Synth 8-2490] overwriting previous definition of module DSP48E2 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3564]
+WARNING: [Synth 8-2490] overwriting previous definition of module EFUSE_USR [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3716]
+WARNING: [Synth 8-2490] overwriting previous definition of module FD [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3725]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDC [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3737]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDCE [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3750]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDCE_1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3770]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDCP [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3784]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDCPE [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3801]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDCPE_1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3819]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDCP_1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3837]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDC_1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3854]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDE [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3867]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDE_1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3880]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDP [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3893]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDPE [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3906]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDPE_1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3926]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDP_1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3940]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDR [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3953]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDRE [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3966]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDRE_1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3986]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDRS [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:4000]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDRSE [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:4018]
+WARNING: [Synth 8-2490] overwriting previous definition of module FDRSE_1 [D:/users/vivado2018/Vivado/2018.2/scripts/rt/data/unisim_comp.v:4038]
+INFO: [Common 17-14] Message 'Synth 8-2490' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1792.391 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module '_myPlayer' [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myTOP.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RISCV' [D:/study/verilog/debug/RISCV/verilog/circuit/RISCV.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE' (1#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE' [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE' (2#1) [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE_BUS' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_BUS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE_BUS' (3#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_BUS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Adder.v:9]
+	Parameter ExtendedBits bound to: 33 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (4#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Adder.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer_bus_2' [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v:9]
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer_bus_2' (5#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v:9]
+INFO: [Synth 8-6157] synthesizing module 'REGISTER_FLIP_FLOP_PC' [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP_PC.v:9]
+	Parameter ActiveLevel bound to: 1 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element s_state_reg_neg_edge_reg was removed.  [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP_PC.v:58]
+INFO: [Synth 8-5837] Detected dual asynchronous set and preset for register s_state_reg_reg in module REGISTER_FLIP_FLOP_PC. This is not a recommended register style for Xilinx devices  [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP_PC.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'REGISTER_FLIP_FLOP_PC' (6#1) [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP_PC.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Priority_Encoder' [D:/study/verilog/debug/RISCV/verilog/plexers/Priority_Encoder.v:9]
+	Parameter NrOfInputBits bound to: 8 - type: integer 
+	Parameter NrOfSelectBits bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Priority_Encoder' (7#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Priority_Encoder.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer_bus_4' [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_4.v:9]
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer_bus_4' (8#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_4.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Bit_Extender_12_32_SIGN' [D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_12_32_SIGN.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Bit_Extender_12_32_SIGN' (9#1) [D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_12_32_SIGN.v:9]
+INFO: [Synth 8-6157] synthesizing module 'NOT_GATE' [D:/study/verilog/debug/RISCV/verilog/gates/NOT_GATE.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'NOT_GATE' (10#1) [D:/study/verilog/debug/RISCV/verilog/gates/NOT_GATE.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer_bus_8' [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_8.v:9]
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer_bus_8' (11#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_8.v:9]
+INFO: [Synth 8-6157] synthesizing module 'REGISTER_FLIP_FLOP' [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:9]
+	Parameter ActiveLevel bound to: 1 - type: integer 
+	Parameter NrOfBits bound to: 3 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element s_state_reg_neg_edge_reg was removed.  [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:58]
+INFO: [Synth 8-5837] Detected dual asynchronous set and preset for register s_state_reg_reg in module REGISTER_FLIP_FLOP. This is not a recommended register style for Xilinx devices  [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'REGISTER_FLIP_FLOP' (12#1) [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Shifter_32_bit' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v:9]
+	Parameter ShifterMode bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Shifter_32_bit' (13#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Bit_Extender_20_32' [D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Bit_Extender_20_32' (14#1) [D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ROM_IRPLACE' [D:/study/verilog/debug/RISCV/verilog/memory/ROM_IRPLACE.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ROM_IRPLACE' (15#1) [D:/study/verilog/debug/RISCV/verilog/memory/ROM_IRPLACE.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Demultiplexer_8' [D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_8.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Demultiplexer_8' (16#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_8.v:9]
+INFO: [Synth 8-6157] synthesizing module 'LogisimCounter' [D:/study/verilog/debug/RISCV/verilog/memory/LogisimCounter.v:9]
+	Parameter mode bound to: 0 - type: integer 
+	Parameter ClkEdge bound to: 1 - type: integer 
+	Parameter max_val bound to: 65535 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element s_counter_value_neg_edge_reg was removed.  [D:/study/verilog/debug/RISCV/verilog/memory/LogisimCounter.v:122]
+INFO: [Synth 8-5837] Detected dual asynchronous set and preset for register s_counter_value_reg in module LogisimCounter. This is not a recommended register style for Xilinx devices  [D:/study/verilog/debug/RISCV/verilog/memory/LogisimCounter.v:115]
+INFO: [Synth 8-6155] done synthesizing module 'LogisimCounter' (17#1) [D:/study/verilog/debug/RISCV/verilog/memory/LogisimCounter.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Comparator' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+	Parameter TwosComplement bound to: 1 - type: integer 
+	Parameter NrOfBits bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Comparator' (18#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+INFO: [Synth 8-6157] synthesizing module 'REGISTER_FLIP_FLOP__parameterized0' [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:9]
+	Parameter ActiveLevel bound to: 1 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element s_state_reg_neg_edge_reg was removed.  [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:58]
+INFO: [Synth 8-5837] Detected dual asynchronous set and preset for register s_state_reg_reg in module REGISTER_FLIP_FLOP__parameterized0. This is not a recommended register style for Xilinx devices  [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'REGISTER_FLIP_FLOP__parameterized0' (18#1) [D:/study/verilog/debug/RISCV/verilog/memory/REGISTER_FLIP_FLOP.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Shifter_32_bit__parameterized0' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v:9]
+	Parameter ShifterMode bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Shifter_32_bit__parameterized0' (18#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer_bus_2__parameterized0' [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v:9]
+	Parameter NrOfBits bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer_bus_2__parameterized0' (18#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Comparator__parameterized0' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+	Parameter TwosComplement bound to: 0 - type: integer 
+	Parameter NrOfBits bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Comparator__parameterized0' (18#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer_bus_2__parameterized1' [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v:9]
+	Parameter NrOfBits bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer_bus_2__parameterized1' (18#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_2.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Priority_Encoder__parameterized0' [D:/study/verilog/debug/RISCV/verilog/plexers/Priority_Encoder.v:9]
+	Parameter NrOfInputBits bound to: 4 - type: integer 
+	Parameter NrOfSelectBits bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Priority_Encoder__parameterized0' (18#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Priority_Encoder.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Comparator__parameterized1' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+	Parameter TwosComplement bound to: 1 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Comparator__parameterized1' (18#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Bit_Extender_20_32_SIGN' [D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32_SIGN.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Bit_Extender_20_32_SIGN' (19#1) [D:/study/verilog/debug/RISCV/verilog/wiring/Bit_Extender_20_32_SIGN.v:9]
+INFO: [Synth 8-6157] synthesizing module 'RAM_DATAPLACE' [D:/study/verilog/debug/RISCV/verilog/memory/RAM_DATAPLACE.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'RAM_DATAPLACE' (20#1) [D:/study/verilog/debug/RISCV/verilog/memory/RAM_DATAPLACE.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/study/verilog/debug/RISCV/verilog/circuit/ALU.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer_bus_16' [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_16.v:9]
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer_bus_16' (21#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_bus_16.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Comparator__parameterized2' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+	Parameter TwosComplement bound to: 0 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Comparator__parameterized2' (21#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Comparator.v:9]
+INFO: [Synth 8-6157] synthesizing module 'XOR_GATE_BUS' [D:/study/verilog/debug/RISCV/verilog/gates/XOR_GATE_BUS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'XOR_GATE_BUS' (22#1) [D:/study/verilog/debug/RISCV/verilog/gates/XOR_GATE_BUS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer_16' [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_16.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer_16' (23#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Multiplexer_16.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Shifter_32_bit__parameterized1' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v:9]
+	Parameter ShifterMode bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Shifter_32_bit__parameterized1' (23#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Shifter_32_bit.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Subtractor' [D:/study/verilog/debug/RISCV/verilog/arithmetic/Subtractor.v:9]
+	Parameter ExtendedBits bound to: 33 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Subtractor' (24#1) [D:/study/verilog/debug/RISCV/verilog/arithmetic/Subtractor.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE_BUS' [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_BUS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE_BUS' (25#1) [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_BUS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'NOR_GATE_BUS' [D:/study/verilog/debug/RISCV/verilog/gates/NOR_GATE_BUS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+	Parameter NrOfBits bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'NOR_GATE_BUS' (26#1) [D:/study/verilog/debug/RISCV/verilog/gates/NOR_GATE_BUS.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (27#1) [D:/study/verilog/debug/RISCV/verilog/circuit/ALU.v:9]
+INFO: [Synth 8-6157] synthesizing module 'IRIECTRL' [D:/study/verilog/debug/RISCV/verilog/circuit/IRIECTRL.v:9]
+INFO: [Synth 8-6157] synthesizing module 'D_Flip_Flop' [D:/study/verilog/debug/RISCV/verilog/memory/D_Flip_Flop.v:2]
+	Parameter ActiveLevel bound to: 1 - type: integer 
+INFO: [Synth 8-5837] Detected dual asynchronous set and preset for register s_next_state_reg in module D_Flip_Flop. This is not a recommended register style for Xilinx devices  [D:/study/verilog/debug/RISCV/verilog/memory/D_Flip_Flop.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'D_Flip_Flop' (28#1) [D:/study/verilog/debug/RISCV/verilog/memory/D_Flip_Flop.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'IRIECTRL' (29#1) [D:/study/verilog/debug/RISCV/verilog/circuit/IRIECTRL.v:9]
+INFO: [Synth 8-6157] synthesizing module 'INTRsignalGEN' [D:/study/verilog/debug/RISCV/verilog/circuit/INTRsignalGEN.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'INTRsignalGEN' (30#1) [D:/study/verilog/debug/RISCV/verilog/circuit/INTRsignalGEN.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MIPS_Regifile' [D:/study/verilog/debug/RISCV/verilog/circuit/MIPS_Regifile.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MIPS_Regifile' (31#1) [D:/study/verilog/debug/RISCV/verilog/circuit/MIPS_Regifile.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MAZEMAP' [D:/study/verilog/debug/RISCV/verilog/circuit/MAZEMAP.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Demultiplexer_32' [D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_32.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Demultiplexer_32' (32#1) [D:/study/verilog/debug/RISCV/verilog/plexers/Demultiplexer_32.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MAZEMAP' (33#1) [D:/study/verilog/debug/RISCV/verilog/circuit/MAZEMAP.v:9]
+INFO: [Synth 8-6157] synthesizing module 'DISPLAY' [D:/study/verilog/debug/RISCV/verilog/circuit/DISPLAY.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'DISPLAY' (34#1) [D:/study/verilog/debug/RISCV/verilog/circuit/DISPLAY.v:9]
+INFO: [Synth 8-6157] synthesizing module 'CONTROLLER' [D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLLER.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE__parameterized0' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE.v:9]
+	Parameter BubblesMask bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE__parameterized0' (34#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE.v:9]
+INFO: [Synth 8-6157] synthesizing module 'CONTROLSIGNAL' [D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLSIGNAL.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE_7_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_7_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE_7_INPUTS' (35#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_7_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE_10_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_10_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE_10_INPUTS' (36#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_10_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE_20_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_20_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE_20_INPUTS' (37#1) [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_20_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE_8_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_8_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE_8_INPUTS' (38#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_8_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE_6_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_6_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE_6_INPUTS' (39#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_6_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE_8_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_8_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE_8_INPUTS' (40#1) [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_8_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE_5_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_5_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE_5_INPUTS' (41#1) [D:/study/verilog/debug/RISCV/verilog/gates/AND_GATE_5_INPUTS.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'CONTROLSIGNAL' (42#1) [D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLSIGNAL.v:9]
+INFO: [Synth 8-6157] synthesizing module 'COMPUTESIGNAL' [D:/study/verilog/debug/RISCV/verilog/circuit/COMPUTESIGNAL.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE_9_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_9_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE_9_INPUTS' (43#1) [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_9_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE_11_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_11_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE_11_INPUTS' (44#1) [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_11_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE_15_INPUTS' [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_15_INPUTS.v:9]
+	Parameter BubblesMask bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE_15_INPUTS' (45#1) [D:/study/verilog/debug/RISCV/verilog/gates/OR_GATE_15_INPUTS.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'COMPUTESIGNAL' (46#1) [D:/study/verilog/debug/RISCV/verilog/circuit/COMPUTESIGNAL.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'CONTROLLER' (47#1) [D:/study/verilog/debug/RISCV/verilog/circuit/CONTROLLER.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'RISCV' (48#1) [D:/study/verilog/debug/RISCV/verilog/circuit/RISCV.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myvga' [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v:29]
+WARNING: [Synth 8-3848] Net r0 in module/entity myvga does not have driver. [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v:36]
+WARNING: [Synth 8-3848] Net r1 in module/entity myvga does not have driver. [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v:36]
+WARNING: [Synth 8-3848] Net r2 in module/entity myvga does not have driver. [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'myvga' (49#1) [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myVGA.v:29]
+INFO: [Synth 8-6155] done synthesizing module '_myPlayer' (50#1) [D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.srcs/sources_1/new/myTOP.v:23]
+WARNING: [Synth 8-3331] design myvga has unconnected port r0
+WARNING: [Synth 8-3331] design myvga has unconnected port r1
+WARNING: [Synth 8-3331] design myvga has unconnected port r2
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1023]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1022]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1021]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1020]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1019]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1018]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1017]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1016]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1015]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1014]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1013]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1012]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1011]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1010]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1009]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1008]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1007]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1006]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1005]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1004]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1003]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1002]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1001]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[1000]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[999]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[998]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[997]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[996]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[995]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[994]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[993]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[992]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[991]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[990]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[989]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[988]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[987]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[986]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[985]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[984]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[983]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[982]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[981]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[980]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[979]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[978]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[977]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[976]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[975]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[974]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[973]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[972]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[971]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[970]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[969]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[968]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[967]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[966]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[965]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[964]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[963]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[962]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[961]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[960]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[959]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[958]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[957]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[956]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[955]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[954]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[953]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[952]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[951]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[950]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[949]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[948]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[947]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[946]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[945]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[944]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[943]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[942]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[941]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[940]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[939]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[938]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[937]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[936]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[935]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[934]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[933]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[932]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[931]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[930]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[929]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[928]
+WARNING: [Synth 8-3331] design myvga has unconnected port display[927]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1995.188 ; gain = 202.797
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1995.188 ; gain = 202.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1995.188 ; gain = 202.797
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 8 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc]
+WARNING: [Vivado 12-507] No nets matched 'rst_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'level1_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'level2_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTND_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTNU_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTNL_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTNR_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'BTNC_IBUF'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNC'. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/study/verilog/debug/RISCV/xdc/LogisimToplevelShell.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:17 . Memory (MB): peak = 2013.352 ; gain = 220.961
+131 Infos, 216 Warnings, 9 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:17 . Memory (MB): peak = 2013.352 ; gain = 220.961
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'myplayer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj myplayer_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/users/vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto cebb0671d9d747f18489edcf45299cba --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot myplayer_tb_behav xil_defaultlib.myplayer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/study/verilog/debug/RISCV/mips_cpu/mips_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "myplayer_tb_behav -key {Behavioral:sim_1:Functional:myplayer_tb} -tclbatch {myplayer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source myplayer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'myplayer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2013.352 ; gain = 0.000
+run 10 us
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/myplayer_tb/plyr/aRiscvcpu/INTRsignalGEN_1/DFFF_out}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 2013.352 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 24 22:27:02 2022...

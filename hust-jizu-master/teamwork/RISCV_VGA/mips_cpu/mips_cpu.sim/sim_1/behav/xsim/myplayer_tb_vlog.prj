@@ -1,0 +1,59 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../verilog/circuit/ALU.v" \
+"../../../../../verilog/gates/AND_GATE.v" \
+"../../../../../verilog/gates/AND_GATE_10_INPUTS.v" \
+"../../../../../verilog/gates/AND_GATE_5_INPUTS.v" \
+"../../../../../verilog/gates/AND_GATE_6_INPUTS.v" \
+"../../../../../verilog/gates/AND_GATE_7_INPUTS.v" \
+"../../../../../verilog/gates/AND_GATE_8_INPUTS.v" \
+"../../../../../verilog/gates/AND_GATE_BUS.v" \
+"../../../../../verilog/arithmetic/Adder.v" \
+"../../../../../verilog/wiring/Bit_Extender_12_32_SIGN.v" \
+"../../../../../verilog/wiring/Bit_Extender_20_32.v" \
+"../../../../../verilog/wiring/Bit_Extender_20_32_SIGN.v" \
+"../../../../../verilog/circuit/COMPUTESIGNAL.v" \
+"../../../../../verilog/circuit/CONTROLLER.v" \
+"../../../../../verilog/circuit/CONTROLSIGNAL.v" \
+"../../../../../verilog/arithmetic/Comparator.v" \
+"../../../../../verilog/circuit/DISPLAY.v" \
+"../../../../../verilog/memory/D_Flip_Flop.v" \
+"../../../../../verilog/plexers/Demultiplexer_32.v" \
+"../../../../../verilog/plexers/Demultiplexer_8.v" \
+"../../../../../verilog/circuit/INTRsignalGEN.v" \
+"../../../../../verilog/circuit/IRIECTRL.v" \
+"../../../../../verilog/memory/LogisimCounter.v" \
+"../../../../../verilog/circuit/MAZEMAP.v" \
+"../../../../../verilog/circuit/MIPS_Regifile.v" \
+"../../../../../verilog/plexers/Multiplexer_16.v" \
+"../../../../../verilog/plexers/Multiplexer_bus_16.v" \
+"../../../../../verilog/plexers/Multiplexer_bus_2.v" \
+"../../../../../verilog/plexers/Multiplexer_bus_4.v" \
+"../../../../../verilog/plexers/Multiplexer_bus_8.v" \
+"../../../../../verilog/gates/NOR_GATE_BUS.v" \
+"../../../../../verilog/gates/NOT_GATE.v" \
+"../../../../../verilog/gates/OR_GATE.v" \
+"../../../../../verilog/gates/OR_GATE_11_INPUTS.v" \
+"../../../../../verilog/gates/OR_GATE_15_INPUTS.v" \
+"../../../../../verilog/gates/OR_GATE_20_INPUTS.v" \
+"../../../../../verilog/gates/OR_GATE_8_INPUTS.v" \
+"../../../../../verilog/gates/OR_GATE_9_INPUTS.v" \
+"../../../../../verilog/gates/OR_GATE_BUS.v" \
+"../../../../../verilog/plexers/Priority_Encoder.v" \
+"../../../../../verilog/memory/RAM_DATAPLACE.v" \
+"../../../../../verilog/memory/REGISTER_FLIP_FLOP.v" \
+"../../../../../verilog/memory/REGISTER_FLIP_FLOP_PC.v" \
+"../../../../../verilog/circuit/RISCV.v" \
+"../../../../../verilog/memory/ROM_IRPLACE.v" \
+"../../../../../verilog/arithmetic/Shifter_32_bit.v" \
+"../../../../../verilog/arithmetic/Subtractor.v" \
+"../../../../../verilog/gates/XOR_GATE_BUS.v" \
+"../../../../mips_cpu.srcs/sources_1/new/myTOP.v" \
+"../../../../mips_cpu.srcs/sources_1/new/myVGA.v" \
+"../../../../mips_cpu.srcs/sim_1/new/myplayer_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
