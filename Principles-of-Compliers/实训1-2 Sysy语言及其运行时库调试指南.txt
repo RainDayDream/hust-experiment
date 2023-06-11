@@ -1,0 +1,23 @@
+实训1-2 Sysy语言及其运行时库调试指南:
+
+第1步 打开命令行
+第2步 cd /data/workspace/myshixun/task1-2/judge
+第3步 编译test1.sy:
+      ./koba ../src/step1.sy -o step1.s
+正确情形下，会在当前文件夹下生成ARM的汇编:step1.s
+第4步 用交叉编译工具汇编step1.s并链接运行时库libsysy.a：
+     arm-linux-gnueabihf-gcc -o step1.arm step1.s libsysy.a
+正确情形下，会在当前文件夹下生面ARM的二进制可执行文件step1.arm
+第4步 用qemu-arm虚拟机运行step1.arm:
+     qemu-arm -L $ARM ./step1.arm
+程序等待你输入10个整数代表连续10个交易日的股价，然后输出最多能赚多少钱，如:
+输入：1 2 3 4 5 9 8 7 6 1 
+8
+TOTAL: 0H-0M-0S-0us
+
+(1元买入，9元卖出)
+第5步 显示程序return的结果:
+      echo $?
+预期结果是1. 
+如果全部正确，再点击评测，足以过关。
+过程中出现什么错误信息，可以根据错误信息对应修改。
